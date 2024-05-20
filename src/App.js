@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./App.css";
 
-import Logo from "./components/Logo/Logo";
+import { Logo } from "./components/Logo/Logo";
 import Card from "./components/Card/Card";
 import Footer from "./components/Footer/Footer";
 

@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Logo from "../Logo/Logo";
-import Icon from "../SocialIcons/Icon";
+import { Logo } from "../Logo/Logo";
+import { Icon } from "../SocialIcons/Icon";
 import { StyledImageLogo, StyledTextLogo } from "../Logo/Logo.styles";
 
 export const StyledFooter = styled.div`
