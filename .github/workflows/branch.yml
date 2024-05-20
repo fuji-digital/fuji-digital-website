@@ -1,0 +1,22 @@
+name: branch workflow
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Installs NPM to GIT
+        run: npm install
+
+      - name: Unit test
+        run: npm run test
