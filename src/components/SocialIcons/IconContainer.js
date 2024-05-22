@@ -1,8 +1,8 @@
 import LinkedInIcon from "./LinkedInIcon";
 import GitHubIcon from "./GitHubIcon";
-import { StyledIconContainer } from "./Icon.styles.js";
+import { StyledIconContainer } from "./IconContainer.styles.js";
 
-export const Icon = ({ className }) => {
+export const IconContainer = ({ className }) => {
   return (
     <StyledIconContainer className={className}>
       <LinkedInIcon />

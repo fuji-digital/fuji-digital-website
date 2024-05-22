@@ -13,7 +13,7 @@ import whitePurpleDecorativeBlobs from "../../images/decorative-blobs/white-purp
 
 import pinkRoundTallFujit from "../../images/fujits/pink-round-tall-fujit.svg";
 
-function Footer() {
+export const Footer = () => {
   return (
     <StyledFooter>
       <StyledLogo version={"purple"} />
@@ -31,6 +31,4 @@ function Footer() {
       <StyledPinkFujit src={pinkRoundTallFujit} />
     </StyledFooter>
   );
-}
-
-export default Footer;
+};
