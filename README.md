@@ -1,4 +1,4 @@
-# fuji-digital-website
+# Fuji Digital Website
 
 ## How this app is deployed
 
