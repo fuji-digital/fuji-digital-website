@@ -2,8 +2,8 @@ import renderer from "react-test-renderer";
 import GitHubIcon from "./GitHubIcon";
 
 describe("github icon", () => {
-  it("renders correctly", () => {
-    const tree = renderer.create(<GitHubIcon />).toJSON();
-    expect(tree).toMatchSnapshot();
+  it("matches snapshot", () => {
+    const component = renderer.create(<GitHubIcon />).toJSON();
+    expect(component).toMatchSnapshot();
   });
 });

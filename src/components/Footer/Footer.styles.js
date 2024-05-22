@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Logo } from "../Logo/Logo";
-import { Icon } from "../SocialIcons/Icon";
+import { IconContainer } from "../SocialIcons/IconContainer";
 import { StyledImageLogo, StyledTextLogo } from "../Logo/Logo.styles";
 
 export const StyledFooter = styled.div`
@@ -44,7 +44,7 @@ export const StyledFooterBody = styled.div`
   }
 `;
 
-export const StyledIcon = styled(Icon)`
+export const StyledIcon = styled(IconContainer)`
   @media screen and (min-width: 768px) {
     order: 2;
     width: 50%;

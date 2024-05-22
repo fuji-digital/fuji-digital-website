@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`github icon renders correctly 1`] = `
+exports[`github icon matches snapshot 1`] = `
 <a
   href="https://github.com/fuji-digital"
   target="blank"

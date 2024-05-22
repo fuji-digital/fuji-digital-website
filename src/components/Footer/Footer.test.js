@@ -1,9 +1,9 @@
 import renderer from "react-test-renderer";
-import { App } from "./App";
+import { Footer } from "././Footer";
 
-describe("App", () => {
+describe("Footer", () => {
   it("matches snapshot", () => {
-    const component = renderer.create(<App />).toJSON();
+    const component = renderer.create(<Footer />).toJSON();
     expect(component).toMatchSnapshot();
   });
 });
