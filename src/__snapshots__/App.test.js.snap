@@ -2,10 +2,10 @@
 
 exports[`App matches snapshot 1`] = `
 <div
-  className="sc-eldOKa bzajF"
+  className="sc-aYaIB fMrJCj"
 >
   <div
-    className="sc-fPXMhL cbIBoD"
+    className="sc-gEvDqW enqdOK"
   >
     <div
       className="sc-dhKdPU hOfZUt"
@@ -25,32 +25,40 @@ exports[`App matches snapshot 1`] = `
   </div>
   <img
     alt="A blue and pink blob"
-    className="sc-gFqAYk fmToPk"
+    className="sc-eqUzNf hoQbZc"
     src="pink-purple-decorative-blobs.svg"
   />
   <div
-    className="sc-ikkyvV klAquk"
+    className="sc-fqkwJk cSFBPC"
   >
     <div
       className="card"
     >
       <div
-        className="sc-dAbbbq evKiqX"
+        className="sc-dcJtft hCAjbi"
       >
         <img
           alt="Two cartoon people discussing work over a computer"
-          className="sc-feUYzb iZfVZi"
+          className="sc-iGgVNO wriun"
           src="designing.svg"
         />
         <div
-          className="sc-fUnNpA gcJjZu"
+          className="sc-gsFSjX gyFziH"
         >
           <h1>
-            Where Ideas Take Digital Form
+            Under Construction
           </h1>
           <p>
-            Lorem ipsum praesent ac massa at ligula reet est iaculis. Vivamus est mist aliquet elit ac nisl. Lorem ipsum praesent ac massa at ligula reet est iaculis. Vivamus est mist.
+            We are currently working hard on making an amazing website.
           </p>
+          <p>
+            Stay tuned...
+          </p>
+          <img
+            alt="A Pink circle with a happy face with its arms in the air"
+            className="sc-kAycRU AVlTJ"
+            src="pink-round-short-fujit.svg"
+          />
         </div>
       </div>
     </div>
