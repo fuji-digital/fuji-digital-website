@@ -1,23 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App matches snapshot 1`] = `
+exports[`LivePage matches snapshot 1`] = `
 <div
-  className="sc-eldOKa bzajF"
+  className="sc-aYaIB fMrJCj"
 >
   <div
-    className="sc-fPXMhL cbIBoD"
+    className="sc-gEvDqW enqdOK"
   >
     <div
-      className="sc-dhKdPU hOfZUt"
+      className="sc-jXbVAB fybgKO"
     >
       <img
         alt="Fuji Digital Logo"
-        className="sc-imWZod bLngYe"
+        className="sc-kAycRU fcaNln"
         src="fuji-digital-logo.svg"
       />
       <img
         alt="Fuji Digital Text Logo"
-        className="sc-jXbVAB kWTNIY"
+        className="sc-imWZod NoqRX"
         data-testid="textLogo"
         src="fuji-digital-text-logo-white.svg"
       />
@@ -25,25 +25,25 @@ exports[`App matches snapshot 1`] = `
   </div>
   <img
     alt="A blue and pink blob"
-    className="sc-gFqAYk fmToPk"
+    className="sc-eqUzNf hoQbZc"
     src="pink-purple-decorative-blobs.svg"
   />
   <div
-    className="sc-ikkyvV klAquk"
+    className="sc-fqkwJk cSFBPC"
   >
     <div
       className="card"
     >
       <div
-        className="sc-dAbbbq evKiqX"
+        className="sc-dcJtft hCAjbi"
       >
         <img
           alt="Two cartoon people discussing work over a computer"
-          className="sc-feUYzb iZfVZi"
+          className="sc-iGgVNO wriun"
           src="designing.svg"
         />
         <div
-          className="sc-fUnNpA gcJjZu"
+          className="sc-gsFSjX gyFziH"
         >
           <h1>
             Where Ideas Take Digital Form
@@ -56,25 +56,25 @@ exports[`App matches snapshot 1`] = `
     </div>
   </div>
   <div
-    className="sc-dAlxHm gCYqXI"
+    className="sc-kpDprT dmtMhF"
   >
     <div
-      className="sc-dhKdPU hOfZUt sc-jlZhRR gGsBLC"
+      className="sc-jXbVAB fybgKO sc-dAlxHm cQULLU"
     >
       <img
         alt="Fuji Digital Logo"
-        className="sc-imWZod bLngYe"
+        className="sc-kAycRU fcaNln"
         src="fuji-digital-logo.svg"
       />
       <img
         alt="Fuji Digital Text Logo"
-        className="sc-jXbVAB kWTNIY"
+        className="sc-imWZod NoqRX"
         data-testid="textLogo"
         src="fuji-digital-text-logo-purple.svg"
       />
     </div>
     <div
-      className="sc-cwHqhk gviCSg"
+      className="sc-jlZhRR soBZa"
     >
       <div>
         Fuji Digital Ltd.
@@ -86,7 +86,7 @@ exports[`App matches snapshot 1`] = `
       </a>
     </div>
     <div
-      className="sc-kpDprT ditGkE sc-jEABJj dZOzHs"
+      className="sc-dhKdPU epmaGP sc-cwHqhk iEWrFy"
     >
       <a
         href="https://www.linkedin.com/company/fuji-digital-tech/"
@@ -121,16 +121,16 @@ exports[`App matches snapshot 1`] = `
       </a>
     </div>
     <div
-      className="sc-cPiJYC eKHvKf"
+      className="sc-jEABJj brPEUR"
     >
       Copyright © 2024 Fuji Digital Ltd. All rights reserved.
     </div>
     <img
-      className="sc-dLNtp eGkZnX"
+      className="sc-cPiJYC cVNQin"
       src="white-purple-decorative-blobs.svg"
     />
     <img
-      className="sc-eDPFhE hZZsFG"
+      className="sc-dLNtp ggkDcC"
       src="pink-round-tall-fujit.svg"
     />
   </div>
