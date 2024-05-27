@@ -63,7 +63,17 @@ export const CardLayout = styled.div`
     justify-content: space-around;
   }
 `;
-export const DesigningImage = styled.img`
+
+export const HashtagTag = styled.div`
+  background-color: white;
+  width: fit-content;
+  font-size: 0.9rem;
+  border-radius: 50px;
+  text-align: center;
+  padding: 0.2rem 1rem;
+`;
+
+export const DiscussingImage = styled.img`
   height: 11rem;
   @media screen and (min-width: 768px) {
     height: 30vw;

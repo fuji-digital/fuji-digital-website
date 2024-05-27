@@ -63,6 +63,7 @@ export const CardLayout = styled.div`
     justify-content: space-around;
   }
 `;
+
 export const DesigningImage = styled.img`
   height: 11rem;
   @media screen and (min-width: 768px) {

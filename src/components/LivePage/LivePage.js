@@ -4,16 +4,18 @@ import {
   Body,
   BlobStyling,
   CardLayout,
-  DesigningImage,
+  DiscussingImage,
   TextContainer,
+  HashtagTag,
 } from "./LivePage.styles";
 
 import { Logo } from "../Logo/Logo";
 import { Card } from "../Card/Card";
 import { Footer } from "../Footer/Footer";
 
-import designingImage from "../../images/decorative-images/designing.svg";
+import discussingImage from "../../images/decorative-images/discussing.svg";
 import pinkPurpleDecorativeBlobs from "../../images/decorative-blobs/pink-purple-decorative-blobs.svg";
+import { ContactButton } from "../ContactButton/ContactButton.js";
 
 export const LivePage = () => {
   return (
@@ -25,8 +27,9 @@ export const LivePage = () => {
       <Body>
         <Card>
           <CardLayout>
-            <DesigningImage
-              src={designingImage}
+            <HashtagTag>#flexiblesolutions </HashtagTag>
+            <DiscussingImage
+              src={discussingImage}
               alt="Two cartoon people discussing work over a computer"
             />
             <TextContainer>
@@ -37,6 +40,7 @@ export const LivePage = () => {
                 massa at ligula reet est iaculis. Vivamus est mist.
               </p>
             </TextContainer>
+            <ContactButton text="Contact Us" />
           </CardLayout>
         </Card>
       </Body>
