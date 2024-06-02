@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ContactButton } from "../ContactButton/ContactButton.js";
 
 export const PageStyling = styled.div`
   position: relative;
@@ -56,34 +57,61 @@ export const Body = styled.div`
 `;
 
 export const CardLayout = styled.div`
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   @media screen and (min-width: 768px) {
-    flex-direction: row-reverse;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 0fr 3fr;
+    column-gap: 10px;
+
+    /* grid-template-columns: 100px;
+    grid-template-rows: 100px;
+    justify-content: space-around;  */
+    /* overflow: hidden; */
   }
 `;
 
 export const HashtagTag = styled.div`
   background-color: white;
   width: fit-content;
+  height: fit-content;
   font-size: 0.9rem;
   border-radius: 50px;
   text-align: center;
   padding: 0.2rem 1rem;
+  @media screen and (min-width: 768px) {
+    /* grid-area: hashtag; */
+    grid-row: 1;
+    grid-column: 1;
+  }
 `;
 
 export const DiscussingImage = styled.img`
-  height: 11rem;
+  /* height: 11rem; */
   @media screen and (min-width: 768px) {
     height: 30vw;
+    grid-column: 2;
+    grid-row: 1 / 4;
+    /* grid-area: discussingImage; */
   }
 `;
 export const TextContainer = styled.div`
   @media screen and (min-width: 768px) {
-    display: flex;
+    grid-column: 1;
+    grid-row: 2;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    grid-area: textContainer; */
+  }
+`;
+
+export const StyledContactButton = styled(ContactButton)`
+  @media screen and (min-width: 768px) {
+    grid-column: 1;
+    grid-row: 3;
+    /* grid-area: contactButton; */
   }
 `;

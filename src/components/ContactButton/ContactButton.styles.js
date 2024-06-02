@@ -9,6 +9,8 @@ export const StyledContactButton = styled.button`
   font-size: 1rem;
   border-radius: 50px;
   padding: 0.5rem 0.2rem 0.5rem 3rem;
+  width: 13rem;
+  height: 3rem;
 `;
 
 export const StyledArrowIcon = styled.img`

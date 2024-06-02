@@ -7,6 +7,7 @@ import {
   DiscussingImage,
   TextContainer,
   HashtagTag,
+  StyledContactButton,
 } from "./LivePage.styles";
 
 import { Logo } from "../Logo/Logo";
@@ -15,7 +16,6 @@ import { Footer } from "../Footer/Footer";
 
 import discussingImage from "../../images/decorative-images/discussing.svg";
 import pinkPurpleDecorativeBlobs from "../../images/decorative-blobs/pink-purple-decorative-blobs.svg";
-import { ContactButton } from "../ContactButton/ContactButton.js";
 
 export const LivePage = () => {
   return (
@@ -40,7 +40,9 @@ export const LivePage = () => {
                 massa at ligula reet est iaculis. Vivamus est mist.
               </p>
             </TextContainer>
-            <ContactButton text="Contact Us" />
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <StyledContactButton text="Contact Us" />
+            </div>
           </CardLayout>
         </Card>
       </Body>
