@@ -4,7 +4,7 @@ import arrowIcon from "../../images/icons/arrow-icon.svg";
 export const ContactButton = ({ text }) => {
   return (
     <StyledContactButton>
-      <div>{text} </div>
+      <div>{text}</div>
       <StyledArrowIcon
         src={arrowIcon}
         alt="A black and white arrow"
