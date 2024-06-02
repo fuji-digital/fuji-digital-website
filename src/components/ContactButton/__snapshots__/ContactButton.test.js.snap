@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactButton matches snapshot 1`] = `
+<button
+  className="sc-aYaIB jGsPsI"
+>
+  <div>
+     
+  </div>
+  <img
+    alt="A black and white arrow"
+    className="sc-gEvDqW dTdWeV"
+    src="arrow-icon.svg"
+  />
+</button>
+`;

@@ -8,6 +8,7 @@ import {
   TextContainer,
   HashtagTag,
   StyledContactButton,
+  StyledContactButtonContainer,
 } from "./LivePage.styles";
 
 import { Logo } from "../Logo/Logo";
@@ -35,14 +36,14 @@ export const LivePage = () => {
             <TextContainer>
               <h1>Where Ideas Take Digital Form</h1>
               <p>
-                Lorem ipsum praesent ac massa at ligula reet est iaculis.
-                Vivamus est mist aliquet elit ac nisl. Lorem ipsum praesent ac
-                massa at ligula reet est iaculis. Vivamus est mist.
+                Our software engineering contracting website connects businesses
+                with top-tier engineers, offering customized, scalable solutions
+                for projects, ensuring quality and efficiency.
               </p>
             </TextContainer>
-            <div style={{ display: "flex", justifyContent: "center" }}>
+            <StyledContactButtonContainer>
               <StyledContactButton text="Contact Us" />
-            </div>
+            </StyledContactButtonContainer>
           </CardLayout>
         </Card>
       </Body>

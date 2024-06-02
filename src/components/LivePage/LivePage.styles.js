@@ -11,7 +11,7 @@ export const PageStyling = styled.div`
     color: #ebf0f7;
     line-height: 1.2;
     @media screen and (min-width: 1200px) {
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
   }
   p {
@@ -19,9 +19,6 @@ export const PageStyling = styled.div`
     font-family: "Poppins", sans-serif;
     color: #ebf0f7;
     line-height: 1.2;
-    @media screen and (min-width: 1200px) {
-      font-size: 1.5rem;
-    }
   }
 `;
 
@@ -57,18 +54,13 @@ export const Body = styled.div`
 `;
 
 export const CardLayout = styled.div`
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   @media screen and (min-width: 768px) {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 0fr 3fr;
+    grid-template-rows: 1fr 3fr 1fr;
     column-gap: 10px;
-
-    /* grid-template-columns: 100px;
-    grid-template-rows: 100px;
-    justify-content: space-around;  */
-    /* overflow: hidden; */
   }
 `;
 
@@ -81,30 +73,35 @@ export const HashtagTag = styled.div`
   text-align: center;
   padding: 0.2rem 1rem;
   @media screen and (min-width: 768px) {
-    /* grid-area: hashtag; */
     grid-row: 1;
     grid-column: 1;
+    align-self: end;
   }
 `;
 
 export const DiscussingImage = styled.img`
-  /* height: 11rem; */
+  height: 11rem;
   @media screen and (min-width: 768px) {
     height: 30vw;
     grid-column: 2;
     grid-row: 1 / 4;
-    /* grid-area: discussingImage; */
+    align-self: center;
+    justify-self: center;
   }
 `;
 export const TextContainer = styled.div`
   @media screen and (min-width: 768px) {
     grid-column: 1;
-    grid-row: 2;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    grid-area: textContainer; */
+    grid-row: 2 / 3;
+    padding: 0rem 0rem 1rem;
+  }
+`;
+
+export const StyledContactButtonContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  @media screen and (min-width: 768px) {
+    justify-content: left;
   }
 `;
 
@@ -112,6 +109,5 @@ export const StyledContactButton = styled(ContactButton)`
   @media screen and (min-width: 768px) {
     grid-column: 1;
     grid-row: 3;
-    /* grid-area: contactButton; */
   }
 `;

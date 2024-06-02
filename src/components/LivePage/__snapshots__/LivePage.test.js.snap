@@ -2,22 +2,22 @@
 
 exports[`LivePage matches snapshot 1`] = `
 <div
-  className="sc-aYaIB fMrJCj"
+  className="sc-eqUzNf leCsRT"
 >
   <div
-    className="sc-gEvDqW enqdOK"
+    className="sc-fqkwJk AxtGy"
   >
     <div
-      className="sc-jXbVAB fybgKO"
+      className="sc-cwHqhk fuAgyt"
     >
       <img
         alt="Fuji Digital Logo"
-        className="sc-kAycRU fcaNln"
+        className="sc-dAlxHm iJGhYI"
         src="fuji-digital-logo.svg"
       />
       <img
         alt="Fuji Digital Text Logo"
-        className="sc-imWZod NoqRX"
+        className="sc-jlZhRR eJgNbx"
         data-testid="textLogo"
         src="fuji-digital-text-logo-white.svg"
       />
@@ -25,56 +25,78 @@ exports[`LivePage matches snapshot 1`] = `
   </div>
   <img
     alt="A blue and pink blob"
-    className="sc-eqUzNf hoQbZc"
+    className="sc-dcJtft hJIFfI"
     src="pink-purple-decorative-blobs.svg"
   />
   <div
-    className="sc-fqkwJk cSFBPC"
+    className="sc-iGgVNO cPqGEC"
   >
     <div
-      className="card"
+      className="sc-jEABJj goYoVf"
     >
       <div
-        className="sc-dcJtft hCAjbi"
+        className="sc-gsFSjX liFMLo"
       >
+        <div
+          className="sc-kAycRU fXqYlV"
+        >
+          #flexiblesolutions 
+        </div>
         <img
           alt="Two cartoon people discussing work over a computer"
-          className="sc-iGgVNO wriun"
-          src="designing.svg"
+          className="sc-imWZod dxfuJQ"
+          src="discussing.svg"
         />
         <div
-          className="sc-gsFSjX gyFziH"
+          className="sc-jXbVAB bFzrpW"
         >
           <h1>
             Where Ideas Take Digital Form
           </h1>
           <p>
-            Lorem ipsum praesent ac massa at ligula reet est iaculis. Vivamus est mist aliquet elit ac nisl. Lorem ipsum praesent ac massa at ligula reet est iaculis. Vivamus est mist.
+            Our software engineering contracting website connects businesses with top-tier engineers, offering customized, scalable solutions for projects, ensuring quality and efficiency.
           </p>
+        </div>
+        <div
+          className="sc-dhKdPU fUtPml"
+        >
+          <button
+            className="sc-aYaIB jGsPsI"
+          >
+            <div>
+              Contact Us
+               
+            </div>
+            <img
+              alt="A black and white arrow"
+              className="sc-gEvDqW dTdWeV"
+              src="arrow-icon.svg"
+            />
+          </button>
         </div>
       </div>
     </div>
   </div>
   <div
-    className="sc-kpDprT dmtMhF"
+    className="sc-dLNtp hRATcO"
   >
     <div
-      className="sc-jXbVAB fybgKO sc-dAlxHm cQULLU"
+      className="sc-cwHqhk fuAgyt sc-eDPFhE easHTf"
     >
       <img
         alt="Fuji Digital Logo"
-        className="sc-kAycRU fcaNln"
+        className="sc-dAlxHm iJGhYI"
         src="fuji-digital-logo.svg"
       />
       <img
         alt="Fuji Digital Text Logo"
-        className="sc-imWZod NoqRX"
+        className="sc-jlZhRR eJgNbx"
         data-testid="textLogo"
         src="fuji-digital-text-logo-purple.svg"
       />
     </div>
     <div
-      className="sc-jlZhRR soBZa"
+      className="sc-eldOKa eGsMBu"
     >
       <div>
         Fuji Digital Ltd.
@@ -86,7 +108,7 @@ exports[`LivePage matches snapshot 1`] = `
       </a>
     </div>
     <div
-      className="sc-dhKdPU epmaGP sc-cwHqhk iEWrFy"
+      className="sc-cPiJYC gOesTb sc-fPXMhL bwLCFr"
     >
       <a
         href="https://www.linkedin.com/company/fuji-digital-tech/"
@@ -121,16 +143,16 @@ exports[`LivePage matches snapshot 1`] = `
       </a>
     </div>
     <div
-      className="sc-jEABJj brPEUR"
+      className="sc-gFqAYk jmzJaC"
     >
       Copyright © 2024 Fuji Digital Ltd. All rights reserved.
     </div>
     <img
-      className="sc-cPiJYC cVNQin"
+      className="sc-ikkyvV ffTpDd"
       src="white-purple-decorative-blobs.svg"
     />
     <img
-      className="sc-dLNtp ggkDcC"
+      className="sc-dAbbbq dBpaqa"
       src="pink-round-tall-fujit.svg"
     />
   </div>
