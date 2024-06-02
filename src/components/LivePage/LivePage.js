@@ -4,15 +4,18 @@ import {
   Body,
   BlobStyling,
   CardLayout,
-  DesigningImage,
+  DiscussingImage,
   TextContainer,
+  HashtagTag,
+  StyledContactButton,
+  StyledContactButtonContainer,
 } from "./LivePage.styles";
 
 import { Logo } from "../Logo/Logo";
 import { Card } from "../Card/Card";
 import { Footer } from "../Footer/Footer";
 
-import designingImage from "../../images/decorative-images/designing.svg";
+import discussingImage from "../../images/decorative-images/discussing.svg";
 import pinkPurpleDecorativeBlobs from "../../images/decorative-blobs/pink-purple-decorative-blobs.svg";
 
 export const LivePage = () => {
@@ -25,18 +28,22 @@ export const LivePage = () => {
       <Body>
         <Card>
           <CardLayout>
-            <DesigningImage
-              src={designingImage}
+            <HashtagTag>#flexiblesolutions </HashtagTag>
+            <DiscussingImage
+              src={discussingImage}
               alt="Two cartoon people discussing work over a computer"
             />
             <TextContainer>
               <h1>Where Ideas Take Digital Form</h1>
               <p>
-                Lorem ipsum praesent ac massa at ligula reet est iaculis.
-                Vivamus est mist aliquet elit ac nisl. Lorem ipsum praesent ac
-                massa at ligula reet est iaculis. Vivamus est mist.
+                Our software engineering contracting website connects businesses
+                with top-tier engineers, offering customized, scalable solutions
+                for projects, ensuring quality and efficiency.
               </p>
             </TextContainer>
+            <StyledContactButtonContainer>
+              <StyledContactButton text="Contact Us" />
+            </StyledContactButtonContainer>
           </CardLayout>
         </Card>
       </Body>

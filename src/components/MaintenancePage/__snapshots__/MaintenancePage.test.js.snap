@@ -2,7 +2,7 @@
 
 exports[`MaintenancePage matches snapshot 1`] = `
 <div
-  className="sc-aYaIB fMrJCj"
+  className="sc-aYaIB hHTtjJ"
 >
   <div
     className="sc-gEvDqW enqdOK"
@@ -32,7 +32,7 @@ exports[`MaintenancePage matches snapshot 1`] = `
     className="sc-fqkwJk cSFBPC"
   >
     <div
-      className="card"
+      className="sc-kpDprT iiXXq"
     >
       <div
         className="sc-dcJtft hCAjbi"
@@ -64,10 +64,10 @@ exports[`MaintenancePage matches snapshot 1`] = `
     </div>
   </div>
   <div
-    className="sc-dAlxHm gCYqXI"
+    className="sc-jlZhRR dTCUaw"
   >
     <div
-      className="sc-dhKdPU hOfZUt sc-jlZhRR gGsBLC"
+      className="sc-dhKdPU hOfZUt sc-cwHqhk hYoyZo"
     >
       <img
         alt="Fuji Digital Logo"
@@ -82,7 +82,7 @@ exports[`MaintenancePage matches snapshot 1`] = `
       />
     </div>
     <div
-      className="sc-cwHqhk gviCSg"
+      className="sc-jEABJj cPHdFy"
     >
       <div>
         Fuji Digital Ltd.
@@ -94,7 +94,7 @@ exports[`MaintenancePage matches snapshot 1`] = `
       </a>
     </div>
     <div
-      className="sc-kpDprT ditGkE sc-jEABJj dZOzHs"
+      className="sc-dAlxHm iQxgGB sc-cPiJYC ifNUnm"
     >
       <a
         href="https://www.linkedin.com/company/fuji-digital-tech/"
@@ -129,16 +129,16 @@ exports[`MaintenancePage matches snapshot 1`] = `
       </a>
     </div>
     <div
-      className="sc-cPiJYC eKHvKf"
+      className="sc-dLNtp iWqaqT"
     >
       Copyright © 2024 Fuji Digital Ltd. All rights reserved.
     </div>
     <img
-      className="sc-dLNtp eGkZnX"
+      className="sc-eDPFhE hsWCZb"
       src="white-purple-decorative-blobs.svg"
     />
     <img
-      className="sc-eDPFhE hZZsFG"
+      className="sc-eldOKa gyOUUg"
       src="pink-round-tall-fujit.svg"
     />
   </div>

@@ -1,5 +1,5 @@
-import "./Card.css";
+import { StyledCard } from "./Card.styles";
 
 export const Card = ({ children }) => {
-  return <div className="card">{children}</div>;
+  return <StyledCard>{children}</StyledCard>;
 };

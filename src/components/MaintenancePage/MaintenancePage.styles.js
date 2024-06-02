@@ -10,7 +10,7 @@ export const PageStyling = styled.div`
     color: #ebf0f7;
     line-height: 1.2;
     @media screen and (min-width: 1200px) {
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
   }
   p {
@@ -19,7 +19,7 @@ export const PageStyling = styled.div`
     color: #ebf0f7;
     line-height: 1.2;
     @media screen and (min-width: 1200px) {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   }
 `;
@@ -63,6 +63,7 @@ export const CardLayout = styled.div`
     justify-content: space-around;
   }
 `;
+
 export const DesigningImage = styled.img`
   height: 11rem;
   @media screen and (min-width: 768px) {
