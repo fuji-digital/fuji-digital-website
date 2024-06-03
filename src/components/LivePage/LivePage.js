@@ -14,6 +14,7 @@ import {
 import { Logo } from "../Logo/Logo";
 import { Card } from "../Card/Card";
 import { Footer } from "../Footer/Footer";
+import { WhatWeDo } from "../WhatWeDo/WhatWeDo";
 
 import discussingImage from "../../images/decorative-images/discussing.svg";
 import pinkPurpleDecorativeBlobs from "../../images/decorative-blobs/pink-purple-decorative-blobs.svg";
@@ -47,6 +48,7 @@ export const LivePage = () => {
           </CardLayout>
         </Card>
       </Body>
+      <WhatWeDo />
       <Footer />
     </PageStyling>
   );

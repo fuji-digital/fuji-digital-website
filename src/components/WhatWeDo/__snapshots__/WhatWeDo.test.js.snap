@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WhatWeDo matches snapshot 1`] = `
+<div
+  className="sc-aYaIB eGJkdO"
+>
+  <div
+    className="sc-gEvDqW kHXivm"
+  >
+    What We Do
+  </div>
+  <div
+    className="sc-eqUzNf jpUvla"
+  >
+    <div
+      className="sc-fqkwJk lmBqrf"
+    >
+      <img
+        className="sc-dcJtft jqAmXX"
+        src="pink-stripe-fujit.svg"
+      />
+      <p>
+        At our software engineering company, we prioritize delivering top-tier work for every website we create. We tailor our solutions to meet the unique needs of each client, ensuring high-quality, functional, and visually appealing results.
+      </p>
+    </div>
+    <div
+      className="sc-gsFSjX jBnpZW"
+    >
+      <img
+        className="sc-dcJtft jqAmXX"
+        src="purple-tall-fujit.svg"
+      />
+      <p>
+        We utilize the latest technologies to stay ahead of industry trends. By leveraging cutting-edge tools and techniques, we guarantee efficient, innovative, and secure websites that perform optimally across all devices.
+      </p>
+    </div>
+    <div
+      className="sc-fqkwJk lmBqrf"
+    >
+      <img
+        className="sc-dcJtft jqAmXX"
+        src="pink-round-short-fujit.svg"
+      />
+      <p>
+        Our team prides itself on exceptional customer service and timely project completion. We maintain open communication, ensuring clients are informed and satisfied throughout the development process.
+      </p>
+    </div>
+  </div>
+  <div
+    className="sc-iGgVNO bimDux"
+  >
+    <img
+      src="aws-icon.svg"
+    />
+    <img
+      src="react-js-icon.svg"
+    />
+    <img
+      src="graphql-icon.svg"
+    />
+    <img
+      src="node-js-icon.svg"
+    />
+  </div>
+  <p>
+    Our software stack includes React for dynamic front-end development, Node.js for robust back-end solutions, and JavaScript for seamless integration. We utilize AWS for reliable cloud services and GraphQL for efficient data management. Always eager to innovate, we continuously explore and adopt new technologies to enhance our offerings.
+  </p>
+</div>
+`;

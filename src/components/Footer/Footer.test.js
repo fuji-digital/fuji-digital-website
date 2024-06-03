@@ -1,5 +1,5 @@
 import renderer from "react-test-renderer";
-import { Footer } from "././Footer";
+import { Footer } from "./Footer";
 
 describe("Footer", () => {
   it("matches snapshot", () => {

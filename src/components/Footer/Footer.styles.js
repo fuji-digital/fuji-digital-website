@@ -11,6 +11,7 @@ export const StyledFooter = styled.div`
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
+    padding: 1rem 2.5rem;
   }
 `;
 
