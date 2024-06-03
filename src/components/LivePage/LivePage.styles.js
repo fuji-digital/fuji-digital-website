@@ -14,6 +14,7 @@ export const PageStyling = styled.div`
       font-size: 1.8rem;
     }
   }
+
   p {
     font-size: 1rem;
     font-family: "Poppins", sans-serif;
