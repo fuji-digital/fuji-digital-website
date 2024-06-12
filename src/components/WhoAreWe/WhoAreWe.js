@@ -10,12 +10,13 @@ import {
   CardContainer,
 } from "./WhoAreWe.styles";
 import { Card } from "../Card/Card";
-import StaffPhotoEmily from "../../images/StaffPhotos/Emily2.jpeg";
-import StaffPhotoGreg from "../../images/StaffPhotos/Greg.jpeg";
+import StaffPhotoEmily from "../../images/staff-photos/Emily.png";
+import StaffPhotoGreg from "../../images/staff-photos/Greg.png";
 
 export const WhoAreWe = () => {
   const { width } = useWindowSize();
 
+  console.log("width size =", width);
   return (
     <StyledBody>
       <Card>
