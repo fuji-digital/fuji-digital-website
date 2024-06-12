@@ -3,7 +3,9 @@ import LinkedInIcon from "./LinkedInIcon";
 
 describe("LinkedIn icon", () => {
   it("matches snapshot", () => {
-    const component = renderer.create(<LinkedInIcon />).toJSON();
+    const component = renderer
+      .create(<LinkedInIcon url="" color="" />)
+      .toJSON();
     expect(component).toMatchSnapshot();
   });
 });

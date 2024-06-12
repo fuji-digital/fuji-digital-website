@@ -3,7 +3,7 @@ import GitHubIcon from "./GitHubIcon";
 
 describe("github icon", () => {
   it("matches snapshot", () => {
-    const component = renderer.create(<GitHubIcon />).toJSON();
+    const component = renderer.create(<GitHubIcon url="" color="" />).toJSON();
     expect(component).toMatchSnapshot();
   });
 });
