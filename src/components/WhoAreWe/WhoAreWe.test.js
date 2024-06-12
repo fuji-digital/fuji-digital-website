@@ -1,17 +1,18 @@
 import renderer from "react-test-renderer";
 import { WhoAreWe } from "./WhoAreWe";
 import { render, screen } from "@testing-library/react";
+import { useWindowSize } from "@uidotdev/usehooks";
+
+jest.mock(`@uidotdev/usehooks`, () => ({
+  useWindowSize: jest.fn(),
+}));
 
 describe("WhoAreWe", () => {
   beforeEach(() => {
     jest.resetAllMocks();
   });
   it("about me renders at 550px screen width", () => {
-    jest.mock(`@uidotdev/usehooks`, () => ({
-      useWindowSize: () => ({
-        width: 550,
-      }),
-    }));
+    useWindowSize.mockReturnValue({ width: 550 });
 
     render(<WhoAreWe />);
     const aboutMeEmily = screen.getByText(
@@ -26,11 +27,7 @@ describe("WhoAreWe", () => {
   });
 
   it("about me does not render below 550px screen width", () => {
-    jest.mock(`@uidotdev/usehooks`, () => ({
-      useWindowSize: () => ({
-        width: 540,
-      }),
-    }));
+    useWindowSize.mockReturnValue({ width: 540 });
 
     render(<WhoAreWe />);
     const aboutMeEmily = screen.queryByText(
@@ -45,6 +42,8 @@ describe("WhoAreWe", () => {
   });
 
   it("matches snapshot", () => {
+    useWindowSize.mockReturnValue({ width: 550 });
+
     const component = renderer.create(<WhoAreWe />).toJSON();
     expect(component).toMatchSnapshot();
   });

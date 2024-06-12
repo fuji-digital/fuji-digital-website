@@ -16,7 +16,6 @@ import StaffPhotoGreg from "../../images/staff-photos/Greg.png";
 export const WhoAreWe = () => {
   const { width } = useWindowSize();
 
-  console.log("width size =", width);
   return (
     <StyledBody>
       <Card>
