@@ -2,11 +2,11 @@
 
 exports[`LinkedIn icon matches snapshot 1`] = `
 <a
-  href="https://www.linkedin.com/company/fuji-digital-tech/"
+  href=""
   target="blank"
 >
-   
   <svg
+    fill=""
     height="35"
     viewBox="0 0 24 24"
     width="35"

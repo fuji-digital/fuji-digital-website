@@ -45,7 +45,7 @@ export const StyledFooterBody = styled.div`
   }
 `;
 
-export const StyledIcon = styled(IconContainer)`
+export const StyledIconContainer = styled(IconContainer)`
   @media screen and (min-width: 768px) {
     order: 2;
     width: 50%;

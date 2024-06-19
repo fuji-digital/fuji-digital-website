@@ -4,7 +4,7 @@ import {
   StyledLogo,
   StyledFooterBody,
   StyledFooterCopyright,
-  StyledIcon,
+  StyledIconContainer,
   StyledFooterBlobs,
   StyledPinkFujit,
 } from "./Footer.styles.js";
@@ -23,7 +23,10 @@ export const Footer = () => {
           contact@fujidigital.co.uk
         </a>
       </StyledFooterBody>
-      <StyledIcon />
+      <StyledIconContainer
+        gitHubUrl="https://github.com/fuji-digital"
+        linkedInUrl="https://www.linkedin.com/company/fuji-digital-tech/"
+      />
       <StyledFooterCopyright>
         Copyright © 2024 Fuji Digital Ltd. All rights reserved.
       </StyledFooterCopyright>

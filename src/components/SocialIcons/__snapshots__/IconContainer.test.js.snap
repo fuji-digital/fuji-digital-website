@@ -5,10 +5,8 @@ exports[`IconContainer matches snapshot 1`] = `
   className="sc-aYaIB dQoBqn [object Object]"
 >
   <a
-    href="https://www.linkedin.com/company/fuji-digital-tech/"
     target="blank"
   >
-     
     <svg
       height="35"
       viewBox="0 0 24 24"
@@ -21,7 +19,6 @@ exports[`IconContainer matches snapshot 1`] = `
     </svg>
   </a>
   <a
-    href="https://github.com/fuji-digital"
     target="blank"
   >
     <svg
