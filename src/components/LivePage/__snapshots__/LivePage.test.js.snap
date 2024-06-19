@@ -125,15 +125,19 @@ exports[`LivePage matches snapshot 1`] = `
       className="sc-bXCLgj ebGGNL"
     >
       <img
+        alt="AWS Icon"
         src="aws-icon.svg"
       />
       <img
+        alt="React Icon"
         src="react-js-icon.svg"
       />
       <img
+        alt="GraphQL Icon"
         src="graphql-icon.svg"
       />
       <img
+        alt="Node Icon"
         src="node-js-icon.svg"
       />
     </div>
@@ -156,7 +160,7 @@ exports[`LivePage matches snapshot 1`] = `
         className="sc-koYCI iKUMOe"
       >
         <div
-          className="sc-iHGNiK bYqDie"
+          className="sc-iHGNiK SZOeH"
         >
           <div
             className="sc-dtBeHJ TZQnX"
@@ -218,7 +222,7 @@ exports[`LivePage matches snapshot 1`] = `
           </p>
         </div>
         <div
-          className="sc-iHGNiK bYqDie"
+          className="sc-iHGNiK SZOeH"
         >
           <div
             className="sc-dtBeHJ TZQnX"

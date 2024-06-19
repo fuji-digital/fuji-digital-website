@@ -1,5 +1,5 @@
 import renderer from "react-test-renderer";
-import LinkedInIcon from "./LinkedInIcon";
+import { LinkedInIcon } from "./LinkedInIcon";
 
 describe("LinkedIn icon", () => {
   it("matches snapshot", () => {

@@ -50,15 +50,19 @@ exports[`WhatWeDo matches snapshot 1`] = `
     className="sc-iGgVNO bimDux"
   >
     <img
+      alt="AWS Icon"
       src="aws-icon.svg"
     />
     <img
+      alt="React Icon"
       src="react-js-icon.svg"
     />
     <img
+      alt="GraphQL Icon"
       src="graphql-icon.svg"
     />
     <img
+      alt="Node Icon"
       src="node-js-icon.svg"
     />
   </div>

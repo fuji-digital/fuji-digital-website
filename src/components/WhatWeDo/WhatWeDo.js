@@ -4,7 +4,6 @@ import {
   StyledBody,
   StyledFujit,
   StyledInformationContainer,
-  BlobStyling,
   StyledIconContainer,
   StyledReverseIconContainer,
 } from "./WhatWeDo.styles";
@@ -12,8 +11,6 @@ import {
 import pinkStripeFujit from "../../images/fujits/pink-stripe-fujit.svg";
 import purpleTallFujit from "../../images/fujits/purple-tall-fujit.svg";
 import pinkRoundShortFujit from "../../images/fujits/pink-round-short-fujit.svg";
-
-import pinkPurpleDecorativeBlobs from "../../images/decorative-blobs/pink-purple-decorative-blobs.svg";
 
 import awsIcon from "../../images/icons/aws-icon.svg";
 import reactIcon from "../../images/icons/react-js-icon.svg";
@@ -53,10 +50,10 @@ export const WhatWeDo = () => {
         </StyledTextContainer>
       </StyledInformationContainer>
       <StyledIconContainer>
-        <img src={awsIcon} />
-        <img src={reactIcon} />
-        <img src={graphqlIcon} />
-        <img src={nodeIcon} />
+        <img src={awsIcon} alt="AWS Icon" />
+        <img src={reactIcon} alt="React Icon" />
+        <img src={graphqlIcon} alt="GraphQL Icon" />
+        <img src={nodeIcon} alt="Node Icon" />
       </StyledIconContainer>
       <p>
         Our software stack includes React for dynamic front-end development,

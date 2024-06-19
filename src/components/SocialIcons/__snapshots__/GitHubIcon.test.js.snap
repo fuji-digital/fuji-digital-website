@@ -2,10 +2,11 @@
 
 exports[`github icon matches snapshot 1`] = `
 <a
-  href="https://github.com/fuji-digital"
+  href=""
   target="blank"
 >
   <svg
+    fill=""
     height="35"
     viewBox="0 0 24 24"
     width="35"

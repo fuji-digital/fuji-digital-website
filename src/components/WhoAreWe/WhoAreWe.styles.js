@@ -31,6 +31,10 @@ export const StyledInformationContainer = styled.div`
   @media screen and (min-width: 768px) {
     justify-content: flex-start;
   }
+
+  @media screen and (min-width: 1200px) {
+    flex-basis: 50%;
+  }
 `;
 
 export const StyledContentContainer = styled.div`
