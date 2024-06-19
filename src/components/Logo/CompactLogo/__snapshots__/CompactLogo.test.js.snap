@@ -17,21 +17,3 @@ exports[`CompactLogo icon matches snapshot 1`] = `
   />
 </div>
 `;
-
-exports[`LinkedIn icon matches snapshot 1`] = `
-<div
-  className="sc-eqUzNf etMiUw"
->
-  <img
-    alt="Fuji Digital Logo"
-    className="sc-aYaIB kvsDPw"
-    src="fuji-digital-logo.svg"
-  />
-  <img
-    alt="Fuji Digital Text Logo"
-    className="sc-gEvDqW eRcMlc"
-    data-testid="textLogo"
-    src="fuji-digital-text-logo-white.svg"
-  />
-</div>
-`;
