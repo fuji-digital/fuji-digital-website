@@ -33,6 +33,7 @@ export const Header = styled.div`
     padding: 1rem 3rem;
   }
 `;
+
 export const BlobStyling = styled.img`
   position: absolute;
   right: 0;
