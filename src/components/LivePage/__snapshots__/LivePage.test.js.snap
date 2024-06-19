@@ -166,7 +166,7 @@ exports[`LivePage matches snapshot 1`] = `
             className="sc-dtBeHJ TZQnX"
           >
             <img
-              className="sc-kOHUsU kSEzgl"
+              className="sc-kOHUsU bOXzD"
               src={Object {}}
               style={
                 Object {
@@ -228,7 +228,7 @@ exports[`LivePage matches snapshot 1`] = `
             className="sc-dtBeHJ TZQnX"
           >
             <img
-              className="sc-kOHUsU kSEzgl"
+              className="sc-kOHUsU bOXzD"
               src={Object {}}
               style={
                 Object {

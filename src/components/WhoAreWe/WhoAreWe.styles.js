@@ -44,10 +44,7 @@ export const StyledContentContainer = styled.div`
 `;
 
 export const StyledStaffPhoto = styled.img`
-  border-top-left-radius: 50% 50%;
-  border-top-right-radius: 50% 50%;
-  border-bottom-right-radius: 50% 50%;
-  border-bottom-left-radius: 50% 50%;
+  border-radius: 50%;
   height: 8rem;
   width: 8rem;
 `;
