@@ -9,7 +9,7 @@ import {
   PinkRoundShortFujit,
 } from "./MaintenancePage.styles";
 
-import { Logo } from "../Logo/Logo";
+import { StandardLogo } from "../Logo/StandardLogo/StandardLogo";
 import { Card } from "../Card/Card";
 import { Footer } from "../Footer/Footer";
 
@@ -21,7 +21,7 @@ export const MaintenancePage = () => {
   return (
     <PageStyling>
       <Header>
-        <Logo version={"white"} />
+        <StandardLogo version={"white"} />
       </Header>
       <BlobStyling src={pinkPurpleDecorativeBlobs} alt="A blue and pink blob" />
       <Body>

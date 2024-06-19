@@ -27,10 +27,9 @@ export const Header = styled.div`
   padding: 1.5rem 2rem;
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: normal;
 
   @media screen and (min-width: 768px) {
-    justify-content: normal;
     padding: 1rem 3rem;
   }
 `;
