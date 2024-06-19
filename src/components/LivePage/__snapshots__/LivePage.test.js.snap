@@ -5,19 +5,19 @@ exports[`LivePage matches snapshot 1`] = `
   className="sc-eqUzNf hoWQDF"
 >
   <div
-    className="sc-fqkwJk AxtGy"
+    className="sc-fqkwJk clLVsQ"
   >
     <div
       className="sc-cwHqhk fuAgyt"
     >
       <img
         alt="Fuji Digital Logo"
-        className="sc-dAlxHm iJGhYI"
+        className="sc-dAlxHm lmVzdq"
         src="fuji-digital-logo.svg"
       />
       <img
         alt="Fuji Digital Text Logo"
-        className="sc-jlZhRR eJgNbx"
+        className="sc-jlZhRR chpRUu"
         data-testid="textLogo"
         src="fuji-digital-text-logo-white.svg"
       />
@@ -32,7 +32,7 @@ exports[`LivePage matches snapshot 1`] = `
     className="sc-iGgVNO cPqGEC"
   >
     <div
-      className="sc-jEABJj goYoVf"
+      className="sc-eDPFhE iZfzwF"
     >
       <div
         className="sc-gsFSjX liFMLo"
@@ -77,21 +77,21 @@ exports[`LivePage matches snapshot 1`] = `
     </div>
   </div>
   <div
-    className="sc-feUYzb iMKqHn"
+    className="sc-fHjqbK lmZgDM"
   >
     <div
-      className="sc-fUnNpA iSlNrG"
+      className="sc-hmdnzv ixbrjH"
     >
       What We Do
     </div>
     <div
-      className="sc-hzhKNl cLKVWC"
+      className="sc-bXCLgj cNhvzJ"
     >
       <div
-        className="sc-fHjqbK doayJt"
+        className="sc-jsJARu gnQJIo"
       >
         <img
-          className="sc-hmdnzv bKYQGT"
+          className="sc-eeDSqt iAmMAu"
           src="pink-stripe-fujit.svg"
         />
         <p>
@@ -99,10 +99,10 @@ exports[`LivePage matches snapshot 1`] = `
         </p>
       </div>
       <div
-        className="sc-jsJARu fxNeA"
+        className="sc-bmzXxz iNCXNe"
       >
         <img
-          className="sc-hmdnzv bKYQGT"
+          className="sc-eeDSqt iAmMAu"
           src="purple-tall-fujit.svg"
         />
         <p>
@@ -110,10 +110,10 @@ exports[`LivePage matches snapshot 1`] = `
         </p>
       </div>
       <div
-        className="sc-fHjqbK doayJt"
+        className="sc-jsJARu gnQJIo"
       >
         <img
-          className="sc-hmdnzv bKYQGT"
+          className="sc-eeDSqt iAmMAu"
           src="pink-round-short-fujit.svg"
         />
         <p>
@@ -122,7 +122,7 @@ exports[`LivePage matches snapshot 1`] = `
       </div>
     </div>
     <div
-      className="sc-bXCLgj ebGGNL"
+      className="sc-koYCI hrFyRc"
     >
       <img
         alt="AWS Icon"
@@ -146,27 +146,27 @@ exports[`LivePage matches snapshot 1`] = `
     </p>
   </div>
   <div
-    className="sc-eeDSqt gewKpw"
+    className="sc-iHGNiK ecAldo"
   >
     <div
-      className="sc-jEABJj goYoVf"
+      className="sc-eDPFhE iZfzwF"
     >
       <div
-        className="sc-bmzXxz cipIEs"
+        className="sc-kOHUsU gbifng"
       >
         Who Are We?
       </div>
       <div
-        className="sc-koYCI iKUMOe"
+        className="sc-dtBeHJ iTPbso"
       >
         <div
-          className="sc-iHGNiK SZOeH"
+          className="sc-dtImxT eFSBmd"
         >
           <div
-            className="sc-dtBeHJ TZQnX"
+            className="sc-kOPcje gODEHe"
           >
             <img
-              className="sc-kOHUsU bOXzD"
+              className="sc-cWSIco hdlUKS"
               src={Object {}}
               style={
                 Object {
@@ -180,7 +180,7 @@ exports[`LivePage matches snapshot 1`] = `
              Senior Engineer
           </div>
           <div
-            className="sc-cPiJYC gOesTb sc-dtImxT jROJoV"
+            className="sc-eldOKa bZkROx sc-eBMFzZ kAHvmd"
           >
             <a
               href="https://www.linkedin.com/in/emily-carter-buckley-a91a7118a/"
@@ -216,19 +216,19 @@ exports[`LivePage matches snapshot 1`] = `
             </a>
           </div>
           <p
-            className="sc-kOPcje kehCWa"
+            className="sc-dCFGXG jrMFnn"
           >
             Hey there! I'm Emily, 😊 an experienced Software Engineer, boasting a solid 5+ years track record at LEGO and RS Components. My passion lies in tackling challenges head-on and crafting innovative solutions that make a difference. Beyond work, I love to unwind by immersing myself in the captivating world of board games, keeping fit at the gym, and playing with my cat Hugo 😺
           </p>
         </div>
         <div
-          className="sc-iHGNiK SZOeH"
+          className="sc-dtImxT eFSBmd"
         >
           <div
-            className="sc-dtBeHJ TZQnX"
+            className="sc-kOPcje gODEHe"
           >
             <img
-              className="sc-kOHUsU bOXzD"
+              className="sc-cWSIco hdlUKS"
               src={Object {}}
               style={
                 Object {
@@ -242,7 +242,7 @@ exports[`LivePage matches snapshot 1`] = `
              Junior Engineer
           </div>
           <div
-            className="sc-cPiJYC gOesTb sc-dtImxT jROJoV"
+            className="sc-eldOKa bZkROx sc-eBMFzZ kAHvmd"
           >
             <a
               href="https://www.linkedin.com/in/gregamo/"
@@ -278,7 +278,7 @@ exports[`LivePage matches snapshot 1`] = `
             </a>
           </div>
           <p
-            className="sc-kOPcje kehCWa"
+            className="sc-dCFGXG jrMFnn"
           >
             Hey, I'm Greg! 😄 I trained as a video game designer but pursued a career in software engineering, where I thrive on solving complex technical challenges. My game design background fuels my creativity and problem-solving skills in the tech world. Outside of work, I love spending time with my daughter, attending live concerts, playing video games, and reading manga. I also enjoy going to the gym when I have time. This blend of technical expertise and diverse interests keeps me inspired and engaged in all aspects of my life.🌟
           </p>
@@ -287,25 +287,25 @@ exports[`LivePage matches snapshot 1`] = `
     </div>
   </div>
   <div
-    className="sc-dLNtp kZvCms"
+    className="sc-fPXMhL ddiGQF"
   >
     <div
-      className="sc-cwHqhk fuAgyt sc-eDPFhE easHTf"
+      className="sc-dLNtp jVglZZ sc-gFqAYk gxGCRk"
     >
       <img
         alt="Fuji Digital Logo"
-        className="sc-dAlxHm iJGhYI"
+        className="sc-jEABJj cDpXPE"
         src="fuji-digital-logo.svg"
       />
       <img
         alt="Fuji Digital Text Logo"
-        className="sc-jlZhRR eJgNbx"
+        className="sc-cPiJYC bpsFZz"
         data-testid="textLogo"
         src="fuji-digital-text-logo-purple.svg"
       />
     </div>
     <div
-      className="sc-eldOKa eGsMBu"
+      className="sc-ikkyvV hzhKhC"
     >
       <div>
         Fuji Digital Ltd.
@@ -317,7 +317,7 @@ exports[`LivePage matches snapshot 1`] = `
       </a>
     </div>
     <div
-      className="sc-cPiJYC gOesTb sc-fPXMhL bwLCFr"
+      className="sc-eldOKa bZkROx sc-dAbbbq iMiSqm"
     >
       <a
         href="https://www.linkedin.com/company/fuji-digital-tech/"
@@ -351,16 +351,16 @@ exports[`LivePage matches snapshot 1`] = `
       </a>
     </div>
     <div
-      className="sc-gFqAYk jmzJaC"
+      className="sc-feUYzb bfvBka"
     >
       Copyright © 2024 Fuji Digital Ltd. All rights reserved.
     </div>
     <img
-      className="sc-ikkyvV ffTpDd"
+      className="sc-fUnNpA hzEKDH"
       src="white-purple-decorative-blobs.svg"
     />
     <img
-      className="sc-dAbbbq dBpaqa"
+      className="sc-hzhKNl bEraif"
       src="pink-round-tall-fujit.svg"
     />
   </div>

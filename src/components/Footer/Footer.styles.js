@@ -1,7 +1,10 @@
 import styled from "styled-components";
-import { Logo } from "../Logo/Logo";
+import { StandardLogo } from "../Logo/StandardLogo/StandardLogo";
 import { IconContainer } from "../SocialIcons/IconContainer";
-import { StyledImageLogo, StyledTextLogo } from "../Logo/Logo.styles";
+import {
+  StyledImageLogo,
+  StyledTextLogo,
+} from "../Logo/StandardLogo/StandardLogo.styles";
 
 export const StyledFooter = styled.div`
   background: #ebf0f7;
@@ -15,7 +18,7 @@ export const StyledFooter = styled.div`
   }
 `;
 
-export const StyledLogo = styled(Logo)`
+export const StyledLogo = styled(StandardLogo)`
   column-gap: 1rem;
   justify-content: left;
 
