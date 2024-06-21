@@ -1,7 +1,6 @@
 import { useWindowSize } from "@uidotdev/usehooks";
 
 import {
-  Header,
   PageStyling,
   Body,
   BlobStyling,
@@ -13,13 +12,12 @@ import {
   StyledContactButtonContainer,
 } from "./LivePage.styles";
 
-import { CompactLogo } from "../Logo/CompactLogo/CompactLogo";
-import { StandardLogo } from "../Logo/StandardLogo/StandardLogo";
 import { Card } from "../Card/Card";
 import { Footer } from "../Footer/Footer";
 import { WhatWeDo } from "../WhatWeDo/WhatWeDo";
 import { WhoAreWe } from "../WhoAreWe/WhoAreWe";
-import { MobileMenu } from "../Menu/MobileMenu/MobileMenu";
+import { DesktopHeader } from "../Header/DesktopHeader/DesktopHeader";
+import { MobileHeader } from "../Header/MobileHeader/MobileHeader";
 
 import discussingImage from "../../images/decorative-images/discussing.svg";
 import pinkPurpleDecorativeBlobs from "../../images/decorative-blobs/pink-purple-decorative-blobs.svg";
@@ -29,10 +27,7 @@ export const LivePage = () => {
 
   return (
     <PageStyling>
-      <Header>
-        {width <= 768 ? <CompactLogo /> : <StandardLogo version={"white"} />}
-        <MobileMenu />
-      </Header>
+      {width < 768 ? <MobileHeader /> : <DesktopHeader />}
       <BlobStyling src={pinkPurpleDecorativeBlobs} alt="A blue and pink blob" />
       <Body>
         <Card>

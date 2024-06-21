@@ -23,17 +23,6 @@ export const PageStyling = styled.div`
   }
 `;
 
-export const Header = styled.div`
-  padding: 1.5rem 2rem;
-  display: flex;
-  align-items: flex-start;
-  justify-content: normal;
-
-  @media screen and (min-width: 768px) {
-    padding: 1rem 3rem;
-  }
-`;
-
 export const BlobStyling = styled.img`
   position: absolute;
   right: 0;

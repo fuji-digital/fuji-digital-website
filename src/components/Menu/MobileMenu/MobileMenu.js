@@ -1,11 +1,31 @@
-import burgerMenu from "../../../images/icons/burger-menu.svg";
+import openMenu from "../../../images/icons/burger-menu.svg";
+import closeMenu from "../../../images/icons/cross-icon.svg";
+import { useState } from "react";
 
-import { StyledBurgerMenu, StyledBurgerImage } from "./MobileMenu.styles";
+import {
+  StyledMobileMenu,
+  StyledBurgerMenu,
+  StyledBurgerImage,
+  Menu,
+} from "./MobileMenu.styles";
 
 export const MobileMenu = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleMenuClick = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
-    <StyledBurgerMenu>
-      <StyledBurgerImage src={burgerMenu} />
-    </StyledBurgerMenu>
+    <StyledMobileMenu>
+      <StyledBurgerMenu onClick={handleMenuClick}>
+        <StyledBurgerImage
+          src={isMenuOpen ? closeMenu : openMenu}
+          alt={isMenuOpen ? "Close menu" : "Open menu"}
+          className={isMenuOpen ? "closed" : "open"}
+        />
+      </StyledBurgerMenu>
+      <Menu>Hello</Menu>
+    </StyledMobileMenu>
   );
 };
