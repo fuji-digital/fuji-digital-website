@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
-export const StyledMobileMenu = styled.div``;
+export const StyledMobileMenu = styled.div`
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-end; */
+`;
+
 export const StyledBurgerMenu = styled.button`
   background: none;
   color: inherit;
@@ -20,12 +25,4 @@ export const StyledBurgerImage = styled.img`
   &.closed {
     transform: rotate(90deg); // Add a rotate effect for example
   }
-`;
-
-export const Menu = styled.div`
-  background-color: #291458;
-  top: 0;
-  right: 0;
-  color: white;
-  height: 4rem;
 `;

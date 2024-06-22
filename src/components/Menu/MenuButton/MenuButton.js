@@ -1,17 +1,13 @@
 import openMenu from "../../../images/icons/burger-menu.svg";
 import closeMenu from "../../../images/icons/cross-icon.svg";
-import { useState } from "react";
 
 import {
   StyledMobileMenu,
   StyledBurgerMenu,
   StyledBurgerImage,
-  Menu,
-} from "./MobileMenu.styles";
+} from "./MenuButton.styles";
 
-export const MobileMenu = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+export const MenuButton = ({ isMenuOpen, setIsMenuOpen }) => {
   const handleMenuClick = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -25,7 +21,6 @@ export const MobileMenu = () => {
           className={isMenuOpen ? "closed" : "open"}
         />
       </StyledBurgerMenu>
-      <Menu>Hello</Menu>
     </StyledMobileMenu>
   );
 };
