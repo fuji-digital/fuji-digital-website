@@ -5,7 +5,7 @@ import { StyledMenuButton, StyledMenuImage } from "./MenuButton.styles";
 
 export const MenuButton = ({ isMenuOpen, handleMenuClick }) => {
   return (
-    <StyledMenuButton onClick={handleMenuClick}>
+    <StyledMenuButton onClick={handleMenuClick} data-testid="menu-button">
       <StyledMenuImage
         src={isMenuOpen ? closeMenu : openMenu}
         alt={isMenuOpen ? "Close menu" : "Open menu"}

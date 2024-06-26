@@ -27,8 +27,8 @@ export const MobileHeader = () => {
       </StyledMobileHeader>
       {isMenuOpen && (
         <>
-          <MenuBackdrop onClick={handleMenuClick} />
-          <Menu>
+          <MenuBackdrop onClick={handleMenuClick} data-testid="menu-backdrop" />
+          <Menu data-testid="menu">
             <a onClick={handleMenuClick} href="#what-we-do">
               What we do
             </a>

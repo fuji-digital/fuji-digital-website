@@ -3,7 +3,7 @@ import arrowIcon from "../../images/icons/arrow-icon.svg";
 
 export const ContactButton = ({ text, className }) => {
   return (
-    <StyledContactButton className={className}>
+    <StyledContactButton className={className} data-testid="contact-button">
       <div>{text}</div>
       <StyledArrowIcon
         src={arrowIcon}

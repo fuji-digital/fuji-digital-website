@@ -1,5 +1,4 @@
-import renderer from "react-test-renderer";
-import { render, screen, fireEvent, rerender } from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
 import { MenuButton } from "./MenuButton";
 import closeMenu from "../../../images/icons/cross-icon.svg";
 import openMenu from "../../../images/icons/burger-menu.svg";
