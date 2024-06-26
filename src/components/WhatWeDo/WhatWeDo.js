@@ -19,7 +19,7 @@ import nodeIcon from "../../images/icons/node-js-icon.svg";
 
 export const WhatWeDo = () => {
   return (
-    <StyledBody>
+    <StyledBody id="what-we-do">
       <StyledHeader>What We Do</StyledHeader>
       <StyledInformationContainer>
         <StyledTextContainer>

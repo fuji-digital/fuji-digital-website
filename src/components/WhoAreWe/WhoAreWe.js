@@ -17,7 +17,7 @@ export const WhoAreWe = () => {
   const { width } = useWindowSize();
 
   return (
-    <StyledBody>
+    <StyledBody id="who-are-we">
       <Card>
         <StyledHeader>Who Are We?</StyledHeader>
         <CardContainer>

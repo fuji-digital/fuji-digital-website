@@ -1,9 +1,9 @@
 import { StyledContactButton, StyledArrowIcon } from "./ContactButton.styles";
 import arrowIcon from "../../images/icons/arrow-icon.svg";
 
-export const ContactButton = ({ text }) => {
+export const ContactButton = ({ text, className }) => {
   return (
-    <StyledContactButton>
+    <StyledContactButton className={className} data-testid="contact-button">
       <div>{text}</div>
       <StyledArrowIcon
         src={arrowIcon}
