@@ -10,13 +10,13 @@ export const StyledMenuButton = styled.button`
 
 export const StyledMenuImage = styled.img`
   height: 3rem;
-  transition: transform 0.3s ease; // Add transition effect
+  transition: transform 0.3s ease;
 
   &.open {
     transform: rotate(0deg);
   }
 
   &.closed {
-    transform: rotate(90deg); // Add a rotate effect for example
+    transform: rotate(90deg);
   }
 `;

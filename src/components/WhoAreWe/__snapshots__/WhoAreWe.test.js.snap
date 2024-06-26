@@ -3,6 +3,7 @@
 exports[`WhoAreWe matches snapshot 1`] = `
 <div
   className="sc-gEvDqW bozaXs"
+  id="who-are-we"
 >
   <div
     className="sc-jXbVAB bqnbMq"

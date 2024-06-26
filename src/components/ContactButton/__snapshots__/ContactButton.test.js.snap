@@ -3,6 +3,7 @@
 exports[`ContactButton matches snapshot 1`] = `
 <button
   className="sc-aYaIB jGsPsI"
+  data-testid="contact-button"
 >
   <div>
     the button
