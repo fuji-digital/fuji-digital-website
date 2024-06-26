@@ -23,11 +23,11 @@ export const MobileHeader = () => {
     <div>
       <StyledMobileHeader>
         <CompactLogo />
-        <MenuButton isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+        <MenuButton isMenuOpen={isMenuOpen} handleMenuClick={handleMenuClick} />
       </StyledMobileHeader>
       {isMenuOpen && (
         <>
-          <MenuBackdrop />
+          <MenuBackdrop onClick={handleMenuClick} />
           <Menu>
             <a onClick={handleMenuClick} href="#what-we-do">
               What we do

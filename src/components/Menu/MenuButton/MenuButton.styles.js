@@ -1,12 +1,6 @@
 import styled from "styled-components";
 
-export const StyledMobileMenu = styled.div`
-  /* display: flex;
-  flex-direction: column;
-  align-items: flex-end; */
-`;
-
-export const StyledBurgerMenu = styled.button`
+export const StyledMenuButton = styled.button`
   background: none;
   color: inherit;
   border: none;
@@ -14,7 +8,7 @@ export const StyledBurgerMenu = styled.button`
   outline: inherit;
 `;
 
-export const StyledBurgerImage = styled.img`
+export const StyledMenuImage = styled.img`
   height: 3rem;
   transition: transform 0.3s ease; // Add transition effect
 
