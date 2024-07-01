@@ -15,6 +15,13 @@ export const PageStyling = styled.div`
     }
   }
 
+  h3 {
+    color: #ebf0f7;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
   p {
     font-size: 1rem;
     font-family: "Poppins", sans-serif;
@@ -43,6 +50,17 @@ export const Body = styled.div`
   }
 `;
 
+export const StyledModal = styled.div``;
+
+export const StyledInputBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  textarea {
+    box-sizing: border-box;
+    resize: vertical;
+    min-height: 7rem;
+  }
+`;
 export const CardLayout = styled.div`
   display: flex;
   flex-direction: column;
