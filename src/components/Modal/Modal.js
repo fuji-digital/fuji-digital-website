@@ -3,15 +3,17 @@ import {
   StyledModal,
   StyledCross,
   StyledCrossButton,
+  StyledModalContainer,
 } from "./Modal.styles";
 import Cross from "../../images/icons/cross-icon.svg";
 
 export const Modal = ({ children, handleCrossClick }) => {
   return (
-    <StyledModalBackdrop
-      onClick={handleCrossClick}
-      data-testid="close-backdrop"
-    >
+    <StyledModalContainer>
+      <StyledModalBackdrop
+        onClick={handleCrossClick}
+        data-testid="close-backdrop"
+      />
       <StyledModal>
         <StyledCrossButton
           onClick={handleCrossClick}
@@ -22,6 +24,6 @@ export const Modal = ({ children, handleCrossClick }) => {
         {children}
       </StyledModal>
       ;
-    </StyledModalBackdrop>
+    </StyledModalContainer>
   );
 };

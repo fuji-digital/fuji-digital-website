@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
-export const StyledModalBackdrop = styled.div`
+export const StyledModalContainer = styled.div`
   display: flex;
   justify-content: center;
+`;
+export const StyledModalBackdrop = styled.div`
   position: absolute;
   top: 0rem;
   right: 0;

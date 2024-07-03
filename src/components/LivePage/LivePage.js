@@ -11,8 +11,6 @@ import {
   HashtagTag,
   StyledContactButton,
   StyledContactButtonContainer,
-  StyledModal,
-  StyledInputBox,
 } from "./LivePage.styles";
 
 import { Card } from "../Card/Card";
@@ -22,6 +20,7 @@ import { WhoAreWe } from "../WhoAreWe/WhoAreWe";
 import { DesktopHeader } from "../Header/DesktopHeader/DesktopHeader";
 import { MobileHeader } from "../Header/MobileHeader/MobileHeader";
 import { Modal } from "../Modal/Modal";
+import { EmailForm } from "../EmailForm/EmailForm";
 
 import discussingImage from "../../images/decorative-images/discussing.svg";
 import pinkPurpleDecorativeBlobs from "../../images/decorative-blobs/pink-purple-decorative-blobs.svg";
@@ -38,35 +37,7 @@ export const LivePage = () => {
     <PageStyling>
       {isModalOpen && (
         <Modal handleCrossClick={handleModalClick}>
-          <StyledModal>
-            <h3>Contact Us</h3>
-            <StyledInputBox>
-              <label for="name">Name</label>
-              <input
-                type="text"
-                id="name"
-                placeholder="Enter name here..."
-              ></input>
-            </StyledInputBox>
-
-            <StyledInputBox>
-              <label for="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                placeholder="Enter email here..."
-              ></input>
-            </StyledInputBox>
-
-            <StyledInputBox>
-              <label for="description">How can we help?</label>
-              <textarea
-                type="textarea"
-                id="description"
-                placeholder="Enter question here..."
-              ></textarea>
-            </StyledInputBox>
-          </StyledModal>
+          <EmailForm />
         </Modal>
       )}
       {width < 768 ? <MobileHeader /> : <DesktopHeader />}

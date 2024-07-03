@@ -50,17 +50,6 @@ export const Body = styled.div`
   }
 `;
 
-export const StyledModal = styled.div``;
-
-export const StyledInputBox = styled.div`
-  display: flex;
-  flex-direction: column;
-  textarea {
-    box-sizing: border-box;
-    resize: vertical;
-    min-height: 7rem;
-  }
-`;
 export const CardLayout = styled.div`
   display: flex;
   flex-direction: column;
