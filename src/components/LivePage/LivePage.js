@@ -11,6 +11,7 @@ import {
   HashtagTag,
   StyledContactButton,
   StyledContactButtonContainer,
+  StyledModal,
 } from "./LivePage.styles";
 
 import { Card } from "../Card/Card";
@@ -19,7 +20,6 @@ import { WhatWeDo } from "../WhatWeDo/WhatWeDo";
 import { WhoAreWe } from "../WhoAreWe/WhoAreWe";
 import { DesktopHeader } from "../Header/DesktopHeader/DesktopHeader";
 import { MobileHeader } from "../Header/MobileHeader/MobileHeader";
-import { Modal } from "../Modal/Modal";
 import { EmailForm } from "../EmailForm/EmailForm";
 
 import discussingImage from "../../images/decorative-images/discussing.svg";
@@ -36,9 +36,9 @@ export const LivePage = () => {
   return (
     <PageStyling>
       {isModalOpen && (
-        <Modal handleCrossClick={handleModalClick}>
+        <StyledModal handleCrossClick={handleModalClick}>
           <EmailForm />
-        </Modal>
+        </StyledModal>
       )}
       {width < 768 ? <MobileHeader /> : <DesktopHeader />}
       <BlobStyling src={pinkPurpleDecorativeBlobs} alt="A blue and pink blob" />

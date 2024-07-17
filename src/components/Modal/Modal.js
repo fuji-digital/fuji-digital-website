@@ -7,14 +7,14 @@ import {
 } from "./Modal.styles";
 import Cross from "../../images/icons/cross-icon.svg";
 
-export const Modal = ({ children, handleCrossClick }) => {
+export const Modal = ({ children, className, handleCrossClick }) => {
   return (
     <StyledModalContainer>
       <StyledModalBackdrop
         onClick={handleCrossClick}
         data-testid="close-backdrop"
       />
-      <StyledModal>
+      <StyledModal className={className}>
         <StyledCrossButton
           onClick={handleCrossClick}
           data-testid="cross-button"

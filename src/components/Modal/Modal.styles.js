@@ -35,7 +35,7 @@ export const StyledCross = styled.img`
 export const StyledModal = styled.div`
   z-index: 1000;
   position: fixed;
-  top: 4rem;
+  top: 2rem;
   padding: 1.5rem 2rem;
   width: 75%;
   height: fit-content;
@@ -43,4 +43,7 @@ export const StyledModal = styled.div`
   transition: all 0.3s ease-in-out;
   opacity: 1;
   border-radius: 1.5rem;
+  @media screen and (min-width: 768px) {
+    top: 4rem;
+  }
 `;

@@ -30,7 +30,8 @@ export const StyledInputBox = styled.div`
     resize: vertical;
     min-height: 7rem;
     background-color: #291458;
-    border-color: white;
+    transition: all 0.5s ease-in-out;
+    border-color: ${(props) => (props.inputError ? "red" : "white")};
     border-radius: 6px;
     border-width: 2px;
     padding: 8px;
@@ -43,7 +44,8 @@ export const StyledInputBox = styled.div`
     padding: 0;
     outline: none;
     background-color: #291458;
-    border-color: white;
+    transition: all 0.5s ease-in-out;
+    border-color: ${(props) => (props.inputError ? "red" : "white")};
     border-radius: 6px;
     border-width: 2px;
     padding: 8px;
@@ -64,4 +66,11 @@ export const StyledButton = styled.button`
   height: 2rem;
   font: inherit;
   font-size: 14px;
+`;
+
+export const StyledError = styled.div`
+  color: red;
+  font-size: 12px;
+  padding: 0.1rem 0rem 0rem 0rem;
+  height: 10px;
 `;
