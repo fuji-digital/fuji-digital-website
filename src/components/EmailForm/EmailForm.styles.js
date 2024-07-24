@@ -31,7 +31,7 @@ export const StyledInputBox = styled.div`
     min-height: 7rem;
     background-color: #291458;
     transition: all 0.5s ease-in-out;
-    border-color: ${(props) => (props.inputError ? "red" : "white")};
+    border-color: ${(props) => (props.inputwarning ? "red" : "white")};
     border-radius: 6px;
     border-width: 2px;
     padding: 8px;
@@ -45,7 +45,7 @@ export const StyledInputBox = styled.div`
     outline: none;
     background-color: #291458;
     transition: all 0.5s ease-in-out;
-    border-color: ${(props) => (props.inputError ? "red" : "white")};
+    border-color: ${(props) => (props.inputwarning ? "red" : "white")};
     border-radius: 6px;
     border-width: 2px;
     padding: 8px;

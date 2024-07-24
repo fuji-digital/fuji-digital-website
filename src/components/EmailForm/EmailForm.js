@@ -83,9 +83,9 @@ export const EmailForm = () => {
               }}
             >
               <StyledInputBox
-                inputError={errors.name && touched.name && errors.name}
+                inputwarning={errors.name && touched.name && errors.name}
               >
-                <label for="name">Name</label>
+                <label id="name-label">Name</label>
                 <input
                   type="text"
                   id="name"
@@ -93,16 +93,17 @@ export const EmailForm = () => {
                   onChange={handleChange}
                   onBlur={handleBlur}
                   value={values.name}
+                  aria-describedby="name-label"
                 ></input>
-                <StyledError>
+                <StyledError data-testid="name-error-message">
                   {errors.name && touched.name && errors.name}
                 </StyledError>
               </StyledInputBox>
 
               <StyledInputBox
-                inputError={errors.email && touched.email && errors.email}
+                inputwarning={errors.email && touched.email && errors.email}
               >
-                <label for="email">Email</label>
+                <label id="email-label">Email</label>
                 <input
                   type="email"
                   id="email"
@@ -110,20 +111,21 @@ export const EmailForm = () => {
                   onChange={handleChange}
                   onBlur={handleBlur}
                   value={values.email}
+                  aria-describedby="email-label"
                 ></input>
-                <StyledError>
+                <StyledError data-testid="email-error-message">
                   {errors.email && touched.email && errors.email}
                 </StyledError>
               </StyledInputBox>
 
               <StyledInputBox
-                inputError={
+                inputwarning={
                   errors.description &&
                   touched.description &&
                   errors.description
                 }
               >
-                <label for="description">How can we help?</label>
+                <label id="description-label">How can we help?</label>
                 <textarea
                   type="textarea"
                   id="description"
@@ -131,15 +133,20 @@ export const EmailForm = () => {
                   onChange={handleChange}
                   onBlur={handleBlur}
                   value={values.description}
+                  aria-describedby="description-label"
                 ></textarea>
-                <StyledError>
+                <StyledError data-testid="description-error-message">
                   {errors.description &&
                     touched.description &&
                     errors.description}
                 </StyledError>
               </StyledInputBox>
               <StyledButtonContainer>
-                <StyledButton type="submit" disabled={isSubmitting}>
+                <StyledButton
+                  type="submit"
+                  data-testid="submit-button"
+                  disabled={isSubmitting}
+                >
                   Submit
                 </StyledButton>
               </StyledButtonContainer>
