@@ -35,6 +35,7 @@ exports[`EmailForm matches snapshot 1`] = `
       />
       <div
         className="sc-gsFSjX exgqcy"
+        data-testid="name-error-message"
       />
     </div>
     <div
@@ -56,6 +57,7 @@ exports[`EmailForm matches snapshot 1`] = `
       />
       <div
         className="sc-gsFSjX exgqcy"
+        data-testid="email-error-message"
       />
     </div>
     <div
@@ -77,6 +79,7 @@ exports[`EmailForm matches snapshot 1`] = `
       />
       <div
         className="sc-gsFSjX exgqcy"
+        data-testid="description-error-message"
       />
     </div>
     <div
