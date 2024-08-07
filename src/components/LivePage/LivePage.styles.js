@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { ContactButton } from "../ContactButton/ContactButton.js";
+import { Modal } from "../Modal/Modal.js";
 
 export const PageStyling = styled.div`
   position: relative;
@@ -13,6 +14,13 @@ export const PageStyling = styled.div`
     @media screen and (min-width: 1200px) {
       font-size: 1.8rem;
     }
+  }
+
+  h3 {
+    color: #ebf0f7;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    font-size: 1.5rem;
   }
 
   p {
@@ -99,5 +107,11 @@ export const StyledContactButton = styled(ContactButton)`
   @media screen and (min-width: 768px) {
     grid-column: 1;
     grid-row: 3;
+  }
+`;
+
+export const StyledModal = styled(Modal)`
+  @media screen and (min-width: 768px) {
+    width: 38rem;
   }
 `;

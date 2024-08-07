@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailForm matches snapshot 1`] = `
+<div
+  className="sc-aYaIB hoOdjQ"
+>
+  <h3>
+    Contact Us
+  </h3>
+  <img
+    alt="A Pink mascot waving"
+    className="sc-eqUzNf kJDyOC"
+    src="pink-pentagon-fujit.svg"
+  />
+  <form
+    className="sc-gEvDqW aVfNB"
+    onSubmit={[Function]}
+  >
+    <div
+      className="sc-fqkwJk ktUjlv"
+    >
+      <label
+        id="name-label"
+      >
+        Name
+      </label>
+      <input
+        aria-describedby="name-label"
+        id="name"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Enter name here..."
+        type="text"
+        value=""
+      />
+      <div
+        className="sc-gsFSjX exgqcy"
+        data-testid="name-error-message"
+      />
+    </div>
+    <div
+      className="sc-fqkwJk ktUjlv"
+    >
+      <label
+        id="email-label"
+      >
+        Email
+      </label>
+      <input
+        aria-describedby="email-label"
+        id="email"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Enter email here..."
+        type="email"
+        value=""
+      />
+      <div
+        className="sc-gsFSjX exgqcy"
+        data-testid="email-error-message"
+      />
+    </div>
+    <div
+      className="sc-fqkwJk ktUjlv"
+    >
+      <label
+        id="description-label"
+      >
+        How can we help?
+      </label>
+      <textarea
+        aria-describedby="description-label"
+        id="description"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Enter question here..."
+        type="textarea"
+        value=""
+      />
+      <div
+        className="sc-gsFSjX exgqcy"
+        data-testid="description-error-message"
+      />
+    </div>
+    <div
+      className="sc-dcJtft faUbuY"
+    >
+      <button
+        className="sc-iGgVNO edfwlg"
+        data-testid="submit-button"
+        disabled={false}
+        type="submit"
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+`;
