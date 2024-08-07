@@ -61,4 +61,19 @@ describe("MobileHeader", () => {
 
     expect(menu).not.toBeInTheDocument();
   });
+
+  it("click on say hello button handle modal click function is called", () => {
+    const mockedHandleModalClick = jest.fn();
+    render(<MobileHeader handleModalClick={mockedHandleModalClick} />);
+
+    const menuButton = screen.getByTestId(`menu-button`);
+
+    fireEvent.click(menuButton);
+
+    const contactButton = screen.getByTestId(`contact-button`);
+
+    fireEvent.click(contactButton);
+
+    expect(mockedHandleModalClick).toHaveBeenCalled();
+  });
 });

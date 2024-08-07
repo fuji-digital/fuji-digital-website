@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Desktop Header matches snapshot 1`] = `
+<div
+  className="sc-eqUzNf kDOjW"
+>
+  <div
+    className="sc-fqkwJk ifBEVm"
+  >
+    <div
+      className="sc-kAycRU bqnGkc"
+    >
+      <img
+        alt="Fuji Digital Logo"
+        className="sc-iGgVNO bOGwIO"
+        src="fuji-digital-logo.svg"
+      />
+      <img
+        alt="Fuji Digital Text Logo"
+        className="sc-gsFSjX cBeDTi"
+        data-testid="textLogo"
+        src="fuji-digital-text-logo-white.svg"
+      />
+    </div>
+    <a
+      href="#what-we-do"
+    >
+      What We Do
+    </a>
+    <a
+      href="#who-are-we"
+    >
+      Who Are We
+    </a>
+  </div>
+  <button
+    className="sc-aYaIB koDWfZ sc-dcJtft jkTjTA"
+    data-testid="contact-button"
+    onClick={[Function]}
+  >
+    <div>
+      Say Hello
+    </div>
+    <img
+      alt="A black and white arrow"
+      className="sc-gEvDqW dTdWeV"
+      src="arrow-icon.svg"
+    />
+  </button>
+</div>
+`;

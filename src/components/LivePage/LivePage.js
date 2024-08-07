@@ -40,7 +40,11 @@ export const LivePage = () => {
           <EmailForm />
         </StyledModal>
       )}
-      {width < 768 ? <MobileHeader /> : <DesktopHeader />}
+      {width < 768 ? (
+        <MobileHeader handleModalClick={handleModalClick} />
+      ) : (
+        <DesktopHeader handleModalClick={handleModalClick} />
+      )}
       <BlobStyling src={pinkPurpleDecorativeBlobs} alt="A blue and pink blob" />
       <Body>
         <Card>

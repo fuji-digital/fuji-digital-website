@@ -11,6 +11,7 @@ export const StyledContactButton = styled.button`
   padding: 0.5rem 0.2rem 0.5rem 3rem;
   width: 13rem;
   height: 3rem;
+  border: none;
 `;
 
 export const StyledArrowIcon = styled.img`
