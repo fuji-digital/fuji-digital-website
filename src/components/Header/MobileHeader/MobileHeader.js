@@ -12,7 +12,7 @@ import { CompactLogo } from "../../Logo/CompactLogo/CompactLogo";
 import { MenuButton } from "../../Menu/MenuButton/MenuButton";
 import pinkPentagonFujit from "../../../images/fujits/pink-pentagon-fujit.svg";
 
-export const MobileHeader = () => {
+export const MobileHeader = ({ handleModalClick }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleMenuClick = () => {
@@ -37,7 +37,11 @@ export const MobileHeader = () => {
             </a>
             <hr />
             <StyledContactUs>
-              <StyledContactButton text="Say Hello" />
+              <StyledContactButton
+                text="Say Hello"
+                handleModalClick={handleModalClick}
+                onClick={handleMenuClick}
+              />
               <StyledPinkFujit src={pinkPentagonFujit} />
             </StyledContactUs>
           </Menu>

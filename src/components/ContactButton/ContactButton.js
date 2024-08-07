@@ -1,12 +1,20 @@
 import { StyledContactButton, StyledArrowIcon } from "./ContactButton.styles";
 import arrowIcon from "../../images/icons/arrow-icon.svg";
 
-export const ContactButton = ({ text, className, handleModalClick }) => {
+export const ContactButton = ({
+  text,
+  className,
+  handleModalClick,
+  onClick = () => {},
+}) => {
   return (
     <StyledContactButton
       className={className}
       data-testid="contact-button"
-      onClick={handleModalClick}
+      onClick={() => {
+        handleModalClick();
+        onClick();
+      }}
     >
       <div>{text}</div>
       <StyledArrowIcon

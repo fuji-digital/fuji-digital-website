@@ -2,8 +2,9 @@
 
 exports[`ContactButton matches snapshot 1`] = `
 <button
-  className="sc-aYaIB jGsPsI"
+  className="sc-aYaIB koDWfZ"
   data-testid="contact-button"
+  onClick={[Function]}
 >
   <div>
     the button

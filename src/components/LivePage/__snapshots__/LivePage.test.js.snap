@@ -6,31 +6,31 @@ exports[`LivePage matches snapshot 1`] = `
 >
   <div>
     <div
-      className="sc-kdBRUi beKBdJ"
+      className="sc-esYjtY faztiu"
     >
       <div
-        className="sc-hknPuZ kusISF"
+        className="sc-hCPjmr cnmFeZ"
       >
         <img
           alt="Fuji Digital Logo"
-          className="sc-bbSYpP bnnKqI"
+          className="sc-hknPuZ OAqrM"
           src="fuji-digital-logo.svg"
         />
         <img
           alt="Fuji Digital Text Logo"
-          className="sc-fBWQee jagDKQ"
+          className="sc-uVXKs jYtvKR"
           data-testid="textLogo"
           src="fuji-digital-text-logo-white.svg"
         />
       </div>
       <button
-        className="sc-uVXKs gOJpOt"
+        className="sc-NxrBK kZLCcL"
         data-testid="menu-button"
         onClick={[Function]}
       >
         <img
           alt="Open menu"
-          className="sc-hCPjmr hmtQmT open"
+          className="sc-cfxfQh lcorXT open"
           src="burger-menu.svg"
         />
       </button>
@@ -74,7 +74,7 @@ exports[`LivePage matches snapshot 1`] = `
           className="sc-cwHqhk fuRjeJ"
         >
           <button
-            className="sc-aYaIB jGsPsI sc-jEABJj kceZzL"
+            className="sc-aYaIB koDWfZ sc-jEABJj kceZzL"
             data-testid="contact-button"
             onClick={[Function]}
           >
