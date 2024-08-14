@@ -74,3 +74,19 @@ export const StyledError = styled.div`
   padding: 0.1rem 0rem 0rem 0rem;
   height: 10px;
 `;
+
+export const StyledSubmitError = styled.div`
+  display: flex;
+  border: red 1px solid;
+  color: red;
+  padding: 0.5rem;
+  margin: 1rem 0rem;
+  border-radius: 6px;
+  a {
+    color: white;
+  }
+`;
+
+export const ErrorIconImage = styled.img`
+  padding: 1rem;
+`;
