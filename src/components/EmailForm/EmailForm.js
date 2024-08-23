@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { Formik } from "formik";
 import emailjs from "@emailjs/browser";
 import * as Yup from "yup";
@@ -30,16 +30,21 @@ export const EmailForm = () => {
 
   const sendEmail = () => {
     emailjs
-      .send("service_lzyqmig", "template_pvicxow", formDetails, {
-        publicKey: "wG4NBUiyMrrjZ6xps",
-      })
+      .send(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        formDetails,
+        {
+          publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+        }
+      )
       .then(
         () => {
           console.log("Email Submitted");
           setIsSubmitted(true);
         },
         (error) => {
-          console.log("Email Failed", error.text);
+          console.log("Email Failed", error);
           setErrorOnSubmission(true);
         }
       );

@@ -5,6 +5,9 @@ on:
     branches:
       - main
 jobs:
+  create-env:
+    uses: fuji-digital/fuji-digital-website/.github/workflows/create-env.yml
+
   deploy:
     runs-on: ubuntu-latest
 
