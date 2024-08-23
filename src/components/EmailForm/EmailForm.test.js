@@ -174,11 +174,7 @@ describe("EmailForm", () => {
     });
 
     await waitFor(() =>
-      expect(
-        screen.getByText(
-          "Thank you for submitting your question, our Fujits are working on an answer right away 😊"
-        )
-      ).toBeInTheDocument()
+      expect(screen.getByTestId("submission-error-message")).toBeInTheDocument()
     );
   });
 });

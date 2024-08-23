@@ -35,11 +35,11 @@ export const EmailForm = () => {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          console.log("Email Submitted");
           setIsSubmitted(true);
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          console.log("Email Failed", error.text);
           setErrorOnSubmission(true);
         }
       );
@@ -96,7 +96,7 @@ export const EmailForm = () => {
               {errorOnSubmission && (
                 <StyledSubmitError>
                   <ErrorIconImage src={errorIcon}></ErrorIconImage>
-                  <div>
+                  <div data-testid="submission-error-message">
                     {" "}
                     Error has occured, please try again later or contact us
                     directly by clicking on{" "}
