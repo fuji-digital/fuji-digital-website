@@ -4,6 +4,9 @@ on:
   push:
 
 jobs:
+  create-env:
+    uses: fuji-digital/fuji-digital-website/.github/workflows/create-env.yml
+
   test:
     runs-on: ubuntu-latest
 
