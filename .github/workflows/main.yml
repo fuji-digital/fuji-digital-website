@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   create-env:
-    uses: fuji-digital/fuji-digital-website/.github/workflows/create-env.yml@v1
+    uses: fuji-digital/fuji-digital-website/.github/workflows/create-env.yml@Email-form-submit
 
   deploy:
     runs-on: ubuntu-latest
