@@ -13,10 +13,10 @@ jobs:
       - name: Creates .env file
         working-directory: ${{ github.workspace }}
         run: |
-          echo "REACT_APP_EMAILJS_PUBLIC_KEY=$PUBLIC_KEY" >> .env
-          echo "REACT_APP_EMAILJS_SERVICE_ID=$SERVICE_ID" >> .env
-          echo "REACT_APP_EMAILJS_TEMPLATE_ID=$TEMPLATE_ID" >> .env
-          ls
+          echo "REACT_APP_EMAILJS_PUBLIC_KEY=$PUBLIC_KEY" >> $GITHUB_WORKSPACE/.env
+          echo "REACT_APP_EMAILJS_SERVICE_ID=$SERVICE_ID" >> $GITHUB_WORKSPACE/.env
+          echo "REACT_APP_EMAILJS_TEMPLATE_ID=$TEMPLATE_ID" >> $GITHUB_WORKSPACE/.env
+          ls -la
         env:
           PUBLIC_KEY: ${{ vars.REACT_APP_EMAILJS_PUBLIC_KEY }}
           SERVICE_ID: ${{ vars.REACT_APP_EMAILJS_SERVICE_ID }}
