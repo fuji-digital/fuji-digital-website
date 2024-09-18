@@ -16,7 +16,7 @@ jobs:
           echo "REACT_APP_EMAILJS_PUBLIC_KEY=$PUBLIC_KEY" >> $GITHUB_WORKSPACE/.env
           echo "REACT_APP_EMAILJS_SERVICE_ID=$SERVICE_ID" >> $GITHUB_WORKSPACE/.env
           echo "REACT_APP_EMAILJS_TEMPLATE_ID=$TEMPLATE_ID" >> $GITHUB_WORKSPACE/.env
-          ls -la
+          ls
         env:
           PUBLIC_KEY: ${{ vars.REACT_APP_EMAILJS_PUBLIC_KEY }}
           SERVICE_ID: ${{ vars.REACT_APP_EMAILJS_SERVICE_ID }}
