@@ -2,87 +2,327 @@
 
 exports[`App matches snapshot 1`] = `
 <div
-  className="sc-aYaIB hHTtjJ"
+  className="sc-kAycRU kZgTBH"
 >
-  <div
-    className="sc-gEvDqW enqdOK"
-  >
+  <div>
     <div
-      className="sc-dhKdPU hOfZUt"
+      className="sc-esYjtY faztiu"
     >
-      <img
-        alt="Fuji Digital Logo"
-        className="sc-imWZod bLngYe"
-        src="fuji-digital-logo.svg"
-      />
-      <img
-        alt="Fuji Digital Text Logo"
-        className="sc-jXbVAB kWTNIY"
-        data-testid="textLogo"
-        src="fuji-digital-text-logo-white.svg"
-      />
+      <div
+        className="sc-hCPjmr cnmFeZ"
+      >
+        <img
+          alt="Fuji Digital Logo"
+          className="sc-hknPuZ OAqrM"
+          src="fuji-digital-logo.svg"
+        />
+        <img
+          alt="Fuji Digital Text Logo"
+          className="sc-uVXKs jYtvKR"
+          data-testid="textLogo"
+          src="fuji-digital-text-logo-white.svg"
+        />
+      </div>
+      <button
+        className="sc-NxrBK kZLCcL"
+        data-testid="menu-button"
+        onClick={[Function]}
+      >
+        <img
+          alt="Open menu"
+          className="sc-cfxfQh lcorXT open"
+          src="burger-menu.svg"
+        />
+      </button>
     </div>
   </div>
   <img
     alt="A blue and pink blob"
-    className="sc-eqUzNf hoQbZc"
+    className="sc-imWZod iTPJKF"
     src="pink-purple-decorative-blobs.svg"
   />
   <div
-    className="sc-fqkwJk cSFBPC"
+    className="sc-jXbVAB cVUtwh"
   >
     <div
-      className="sc-kpDprT iiXXq"
+      className="sc-dLNtp hjpjOp"
     >
       <div
-        className="sc-dcJtft hCAjbi"
+        className="sc-dhKdPU fXePZB"
       >
+        <div
+          className="sc-kpDprT kgQejb"
+        >
+          #flexiblesolutions 
+        </div>
         <img
           alt="Two cartoon people discussing work over a computer"
-          className="sc-iGgVNO wriun"
-          src="designing.svg"
+          className="sc-dAlxHm bYgHia"
+          src="discussing.svg"
         />
         <div
-          className="sc-gsFSjX gyFziH"
+          className="sc-jlZhRR brfJPz"
         >
           <h1>
-            Under Construction
+            Where Ideas Take Digital Form
           </h1>
           <p>
-            We are currently working hard on making an amazing website.
+            Our software engineering contracting website connects businesses with top-tier engineers, offering customized, scalable solutions for projects, ensuring quality and efficiency.
           </p>
-          <p>
-            Stay tuned...
-          </p>
-          <img
-            alt="A Pink circle with a happy face with its arms in the air"
-            className="sc-kAycRU AVlTJ"
-            src="pink-round-short-fujit.svg"
-          />
+        </div>
+        <div
+          className="sc-cwHqhk fuRjeJ"
+        >
+          <button
+            className="sc-aYaIB koDWfZ sc-jEABJj kceZzL"
+            data-testid="contact-button"
+            onClick={[Function]}
+          >
+            <div>
+              Contact Us
+            </div>
+            <img
+              alt="A black and white arrow"
+              className="sc-gEvDqW dTdWeV"
+              src="arrow-icon.svg"
+            />
+          </button>
         </div>
       </div>
     </div>
   </div>
   <div
-    className="sc-jlZhRR dbgYUC"
+    className="sc-bXCLgj iUbhBI"
+    id="what-we-do"
   >
     <div
-      className="sc-dhKdPU hOfZUt sc-cwHqhk hYoyZo"
+      className="sc-jsJARu cethhx"
+    >
+      What We Do
+    </div>
+    <div
+      className="sc-eeDSqt cKuMpb"
+    >
+      <div
+        className="sc-koYCI dphtOu"
+      >
+        <img
+          className="sc-bmzXxz bignkj"
+          src="pink-stripe-fujit.svg"
+        />
+        <p>
+          At our software engineering company, we prioritize delivering top-tier work for every website we create. We tailor our solutions to meet the unique needs of each client, ensuring high-quality, functional, and visually appealing results.
+        </p>
+      </div>
+      <div
+        className="sc-dtBeHJ itAmsY"
+      >
+        <img
+          className="sc-bmzXxz bignkj"
+          src="purple-tall-fujit.svg"
+        />
+        <p>
+          We utilize the latest technologies to stay ahead of industry trends. By leveraging cutting-edge tools and techniques, we guarantee efficient, innovative, and secure websites that perform optimally across all devices.
+        </p>
+      </div>
+      <div
+        className="sc-koYCI dphtOu"
+      >
+        <img
+          className="sc-bmzXxz bignkj"
+          src="pink-round-short-fujit.svg"
+        />
+        <p>
+          Our team prides itself on exceptional customer service and timely project completion. We maintain open communication, ensuring clients are informed and satisfied throughout the development process.
+        </p>
+      </div>
+    </div>
+    <div
+      className="sc-iHGNiK cJigBN"
+    >
+      <img
+        alt="AWS Icon"
+        src="aws-icon.svg"
+      />
+      <img
+        alt="React Icon"
+        src="react-js-icon.svg"
+      />
+      <img
+        alt="GraphQL Icon"
+        src="graphql-icon.svg"
+      />
+      <img
+        alt="Node Icon"
+        src="node-js-icon.svg"
+      />
+    </div>
+    <p>
+      Our software stack includes React for dynamic front-end development, Node.js for robust back-end solutions, and JavaScript for seamless integration. We utilize AWS for reliable cloud services and GraphQL for efficient data management. Always eager to innovate, we continuously explore and adopt new technologies to enhance our offerings.
+    </p>
+  </div>
+  <div
+    className="sc-kOHUsU SQGVd"
+    id="who-are-we"
+  >
+    <div
+      className="sc-dLNtp hjpjOp"
+    >
+      <div
+        className="sc-kOPcje iTCRnP"
+      >
+        Who Are We?
+      </div>
+      <div
+        className="sc-dtImxT AGWnh"
+      >
+        <div
+          className="sc-cWSIco eA-dEjL"
+        >
+          <div
+            className="sc-eBMFzZ cIJiGS"
+          >
+            <img
+              className="sc-dCFGXG fkkzPd"
+              src={Object {}}
+              style={
+                Object {
+                  "border": "5px solid #5E17EB",
+                }
+              }
+            />
+            <h3>
+              Emily Buckley
+            </h3>
+             Senior Engineer
+          </div>
+          <div
+            className="sc-gFqAYk bwdJEe sc-fhzEvr fsviXg"
+          >
+            <a
+              href="https://www.linkedin.com/in/emily-carter-buckley-a91a7118a/"
+              target="blank"
+            >
+              <svg
+                fill="#fff"
+                height="35"
+                viewBox="0 0 24 24"
+                width="35"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://github.com/emilybuc"
+              target="blank"
+            >
+              <svg
+                fill="#fff"
+                height="35"
+                viewBox="0 0 24 24"
+                width="35"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm2.218 18.616c-.354.069-.468-.149-.468-.336v-1.921c0-.653-.229-1.079-.481-1.296 1.56-.173 3.198-.765 3.198-3.454 0-.765-.273-1.389-.721-1.879.072-.177.312-.889-.069-1.853 0 0-.587-.188-1.923.717-.561-.154-1.159-.231-1.754-.234-.595.003-1.193.08-1.753.235-1.337-.905-1.925-.717-1.925-.717-.379.964-.14 1.676-.067 1.852-.448.49-.722 1.114-.722 1.879 0 2.682 1.634 3.282 3.189 3.459-.2.175-.381.483-.444.936-.4.179-1.413.488-2.037-.582 0 0-.37-.672-1.073-.722 0 0-.683-.009-.048.426 0 0 .46.215.777 1.024 0 0 .405 1.25 2.353.826v1.303c0 .185-.113.402-.462.337-2.782-.925-4.788-3.549-4.788-6.641 0-3.867 3.135-7 7-7s7 3.133 7 7c0 3.091-2.003 5.715-4.782 6.641z"
+                />
+              </svg>
+            </a>
+          </div>
+          <p
+            className="sc-jxOSYQ fgXAQw"
+          >
+            Hey there! I'm Emily, 😊 an experienced Software Engineer, boasting a solid 5+ years track record at LEGO and RS Components. My passion lies in tackling challenges head-on and crafting innovative solutions that make a difference. Beyond work, I love to unwind by immersing myself in the captivating world of board games, keeping fit at the gym, and playing with my cat Hugo 😺
+          </p>
+        </div>
+        <div
+          className="sc-cWSIco eA-dEjL"
+        >
+          <div
+            className="sc-eBMFzZ cIJiGS"
+          >
+            <img
+              className="sc-dCFGXG fkkzPd"
+              src={Object {}}
+              style={
+                Object {
+                  "border": "5px solid #F1A1E7",
+                }
+              }
+            />
+            <h3>
+              Gregory Carter
+            </h3>
+             Junior Engineer
+          </div>
+          <div
+            className="sc-gFqAYk bwdJEe sc-fhzEvr fsviXg"
+          >
+            <a
+              href="https://www.linkedin.com/in/gregamo/"
+              target="blank"
+            >
+              <svg
+                fill="#fff"
+                height="35"
+                viewBox="0 0 24 24"
+                width="35"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://github.com/Gregamoo"
+              target="blank"
+            >
+              <svg
+                fill="#fff"
+                height="35"
+                viewBox="0 0 24 24"
+                width="35"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm2.218 18.616c-.354.069-.468-.149-.468-.336v-1.921c0-.653-.229-1.079-.481-1.296 1.56-.173 3.198-.765 3.198-3.454 0-.765-.273-1.389-.721-1.879.072-.177.312-.889-.069-1.853 0 0-.587-.188-1.923.717-.561-.154-1.159-.231-1.754-.234-.595.003-1.193.08-1.753.235-1.337-.905-1.925-.717-1.925-.717-.379.964-.14 1.676-.067 1.852-.448.49-.722 1.114-.722 1.879 0 2.682 1.634 3.282 3.189 3.459-.2.175-.381.483-.444.936-.4.179-1.413.488-2.037-.582 0 0-.37-.672-1.073-.722 0 0-.683-.009-.048.426 0 0 .46.215.777 1.024 0 0 .405 1.25 2.353.826v1.303c0 .185-.113.402-.462.337-2.782-.925-4.788-3.549-4.788-6.641 0-3.867 3.135-7 7-7s7 3.133 7 7c0 3.091-2.003 5.715-4.782 6.641z"
+                />
+              </svg>
+            </a>
+          </div>
+          <p
+            className="sc-jxOSYQ fgXAQw"
+          >
+            Hey, I'm Greg! 😄 I trained as a video game designer but pursued a career in software engineering, where I thrive on solving complex technical challenges. My game design background fuels my creativity and problem-solving skills in the tech world. Outside of work, I love spending time with my daughter, attending live concerts, playing video games, and reading manga. I also enjoy going to the gym when I have time. This blend of technical expertise and diverse interests keeps me inspired and engaged in all aspects of my life.🌟
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-ikkyvV bmXObC"
+  >
+    <div
+      className="sc-fPXMhL bvArvM sc-dAbbbq eWFWFB"
     >
       <img
         alt="Fuji Digital Logo"
-        className="sc-imWZod bLngYe"
+        className="sc-eDPFhE ffYOHG"
         src="fuji-digital-logo.svg"
       />
       <img
         alt="Fuji Digital Text Logo"
-        className="sc-jXbVAB kWTNIY"
+        className="sc-eldOKa coIHoF"
         data-testid="textLogo"
         src="fuji-digital-text-logo-purple.svg"
       />
     </div>
     <div
-      className="sc-jEABJj cPHdFy"
+      className="sc-feUYzb hkCDvB"
     >
       <div>
         Fuji Digital Ltd.
@@ -94,7 +334,7 @@ exports[`App matches snapshot 1`] = `
       </a>
     </div>
     <div
-      className="sc-dAlxHm iQxgGB sc-cPiJYC ifNUnm"
+      className="sc-gFqAYk bwdJEe sc-fUnNpA iEICgG"
     >
       <a
         href="https://www.linkedin.com/company/fuji-digital-tech/"
@@ -128,16 +368,16 @@ exports[`App matches snapshot 1`] = `
       </a>
     </div>
     <div
-      className="sc-dLNtp iWqaqT"
+      className="sc-hzhKNl ipctse"
     >
       Copyright © 2024 Fuji Digital Ltd. All rights reserved.
     </div>
     <img
-      className="sc-eDPFhE hsWCZb"
+      className="sc-fHjqbK rCErN"
       src="white-purple-decorative-blobs.svg"
     />
     <img
-      className="sc-eldOKa gyOUUg"
+      className="sc-hmdnzv hkMblP"
       src="pink-round-tall-fujit.svg"
     />
   </div>
