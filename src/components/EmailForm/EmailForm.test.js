@@ -43,13 +43,7 @@ describe("EmailForm", () => {
       await user.click(screen.getByRole("button", { name: /Submit/i }));
     });
 
-    await waitFor(() =>
-      expect(
-        screen.getByText(
-          "Thank you for submitting your question, our Fujits are working on an answer right away 😊"
-        )
-      ).toBeInTheDocument()
-    );
+    await screen.findByText("Thank you for submitting your question, our Fujits are working on an answer right away 😊");
   });
 
   it("checks if the input is correct and errors appear if not", async () => {
@@ -173,8 +167,6 @@ describe("EmailForm", () => {
       await user.click(screen.getByRole("button", { name: /Submit/i }));
     });
 
-    await waitFor(() =>
-      expect(screen.getByTestId("submission-error-message")).toBeInTheDocument()
-    );
+    await screen.findByTestId("submission-error-message");
   });
 });
