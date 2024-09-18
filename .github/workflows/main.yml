@@ -9,13 +9,13 @@ jobs:
     steps:
       - name: Creates .env file
         run: |
-          touch .env
-          echo REACT_APP_EMAILJS_PUBLIC_KEY =${{ vars.REACT_APP_EMAILJS_PUBLIC_KEY }} >> .env
-          echo REACT_APP_EMAILJS_SERVICE_ID =${{ vars.REACT_APP_EMAILJS_SERVICE_ID }} >> .env
-          echo REACT_APP_EMAILJS_TEMPLATE_ID =${{ vars.REACT_APP_EMAILJS_TEMPLATE_ID }} >> .env
-          cat .env
-      - name: create ls
-        run: ls
+          echo "REACT_APP_EMAILJS_PUBLIC_KEY=$PUBLIC_KEY" >> .env
+          echo "REACT_APP_EMAILJS_SERVICE_ID=$SERVICE_ID" >> .env
+          echo "REACT_APP_EMAILJS_TEMPLATE_ID=$TEMPLATE_ID" >> .env
+        env:
+          PUBLIC_KEY: ${{ vars.REACT_APP_EMAILJS_PUBLIC_KEY }}
+          SERVICE_ID: ${{ vars.REACT_APP_EMAILJS_SERVICE_ID }}
+          TEMPLATE_ID: ${{ vars.REACT_APP_EMAILJS_TEMPLATE_ID }}
 
   deploy:
     runs-on: ubuntu-latest
