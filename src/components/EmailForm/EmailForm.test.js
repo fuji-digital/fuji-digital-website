@@ -4,13 +4,25 @@ import { EmailForm } from "./EmailForm";
 import userEvent from "@testing-library/user-event";
 import { act } from "react-dom/test-utils";
 
+jest.mock("@emailjs/browser", () => ({
+  send: jest.fn(() => Promise.resolve({ status: 200, text: "OK" })),
+}));
+
 describe("EmailForm", () => {
+  beforeEach(() => {
+    jest.clearAllMocks();
+  });
+
   it("matches snapshot", () => {
     const component = renderer.create(<EmailForm />).toJSON();
     expect(component).toMatchSnapshot();
   });
 
   it("loads thank you message when submitted", async () => {
+    require("@emailjs/browser").send.mockImplementation(() =>
+      Promise.resolve({ status: 200, text: "OK" })
+    );
+
     const user = userEvent.setup();
     render(<EmailForm />);
 
@@ -133,6 +145,36 @@ describe("EmailForm", () => {
     );
     await waitFor(async () =>
       expect(descriptionValidationErrors).toHaveTextContent("Required")
+    );
+  });
+
+  it("loads error message when submitted", async () => {
+    require("@emailjs/browser").send.mockImplementation(() =>
+      Promise.reject({ text: "FAILED" })
+    );
+
+    const user = userEvent.setup();
+    render(<EmailForm />);
+
+    await act(async () => {
+      await user.type(
+        screen.getByRole("textbox", { description: /Name/i }),
+        "John"
+      );
+      await user.type(
+        screen.getByRole("textbox", { description: /Email/i }),
+        "email@email.com"
+      );
+      await user.type(
+        screen.getByRole("textbox", { description: /How can we help?/i }),
+        "description"
+      );
+
+      await user.click(screen.getByRole("button", { name: /Submit/i }));
+    });
+
+    await waitFor(() =>
+      expect(screen.getByTestId("submission-error-message")).toBeInTheDocument()
     );
   });
 });
