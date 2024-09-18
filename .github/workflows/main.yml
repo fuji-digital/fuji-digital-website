@@ -14,6 +14,7 @@ jobs:
           echo REACT_APP_EMAILJS_SERVICE_ID =${{ vars.REACT_APP_EMAILJS_SERVICE_ID }} >> .env
           echo REACT_APP_EMAILJS_TEMPLATE_ID =${{ vars.REACT_APP_EMAILJS_TEMPLATE_ID }} >> .env
           cat .env
+      - name: create ls
         run: ls
 
   deploy:
