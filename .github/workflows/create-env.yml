@@ -1,5 +1,8 @@
 name: Create env file
 
+on:
+  push:
+
 jobs:
   create-env:
     runs-on: ubuntu-latest
