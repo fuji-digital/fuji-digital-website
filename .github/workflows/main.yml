@@ -4,8 +4,9 @@ on:
   push:
 
 jobs:
-  create-env:
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -16,18 +17,11 @@ jobs:
           echo "REACT_APP_EMAILJS_PUBLIC_KEY=$PUBLIC_KEY" >> $GITHUB_WORKSPACE/.env
           echo "REACT_APP_EMAILJS_SERVICE_ID=$SERVICE_ID" >> $GITHUB_WORKSPACE/.env
           echo "REACT_APP_EMAILJS_TEMPLATE_ID=$TEMPLATE_ID" >> $GITHUB_WORKSPACE/.env
-          ls
+          ls -la
         env:
           PUBLIC_KEY: ${{ vars.REACT_APP_EMAILJS_PUBLIC_KEY }}
           SERVICE_ID: ${{ vars.REACT_APP_EMAILJS_SERVICE_ID }}
           TEMPLATE_ID: ${{ vars.REACT_APP_EMAILJS_TEMPLATE_ID }}
-
-  deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
 
       - uses: actions/setup-node@v4
         with:
