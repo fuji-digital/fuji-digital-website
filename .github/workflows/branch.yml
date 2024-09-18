@@ -4,9 +4,6 @@ on:
   push:
 
 jobs:
-  create-env:
-    uses: fuji-digital/fuji-digital-website/.github/workflows/create-env.yml@Email-form-submit
-
   test:
     runs-on: ubuntu-latest
 
