@@ -6,7 +6,15 @@ on:
       - main
 jobs:
   create-env:
-    uses: fuji-digital/fuji-digital-website/.github/workflows/create-env.yml@Email-form-submit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Creates .env file
+        run: |
+          touch .env
+          echo REACT_APP_EMAILJS_PUBLIC_KEY =${{ secrets.REACT_APP_EMAILJS_PUBLIC_KEY }} >> .env
+          echo REACT_APP_EMAILJS_SERVICE_ID =${{ secrets.REACT_APP_EMAILJS_SERVICE_ID }} >> .env
+          echo REACT_APP_EMAILJS_TEMPLATE_ID =${{ secrets.REACT_APP_EMAILJS_TEMPLATE_ID }} >> .env
+          cat .env
 
   deploy:
     runs-on: ubuntu-latest
