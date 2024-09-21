@@ -4,7 +4,6 @@ import { useState } from "react";
 import {
   PageStyling,
   Body,
-  BlobStyling,
   CardLayout,
   DiscussingImage,
   TextContainer,
@@ -21,9 +20,9 @@ import { WhoAreWe } from "../WhoAreWe/WhoAreWe";
 import { DesktopHeader } from "../Header/DesktopHeader/DesktopHeader";
 import { MobileHeader } from "../Header/MobileHeader/MobileHeader";
 import { EmailForm } from "../EmailForm/EmailForm";
+import { DecorativeBlob } from "../DecorativeBlob/DecorativeBlob";
 
 import discussingImage from "../../images/decorative-images/discussing.svg";
-import pinkPurpleDecorativeBlobs from "../../images/decorative-blobs/pink-purple-decorative-blobs.svg";
 
 export const LivePage = () => {
   const { width } = useWindowSize();
@@ -45,7 +44,8 @@ export const LivePage = () => {
       ) : (
         <DesktopHeader handleModalClick={handleModalClick} />
       )}
-      <BlobStyling src={pinkPurpleDecorativeBlobs} alt="A blue and pink blob" />
+      {/* <BlobStyling src={pinkPurpleDecorativeBlobs} alt="A blue and pink blob" /> */}
+      <DecorativeBlob />
       <Body>
         <Card>
           <CardLayout>

@@ -31,18 +31,6 @@ export const PageStyling = styled.div`
   }
 `;
 
-export const BlobStyling = styled.img`
-  position: absolute;
-  right: 0;
-  top: 7rem;
-  z-index: -1;
-  height: 10rem;
-  @media screen and (min-width: 768px) {
-    top: -1rem;
-    height: 30rem;
-    right: -3rem;
-  }
-`;
 export const Body = styled.div`
   padding: 0rem 2.5rem 2.5rem 2.5rem;
 
