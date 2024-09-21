@@ -1,5 +1,6 @@
 import { useWindowSize } from "@uidotdev/usehooks";
 import { useState } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 import {
   PageStyling,
@@ -33,6 +34,11 @@ export const LivePage = () => {
     setIsModalOpen(!isModalOpen);
   };
 
+  const fadeInOnLoad = {
+    hidden: { opacity: 0, y: 100 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+  };
+
   return (
     <PageStyling>
       {isModalOpen && (
@@ -47,29 +53,32 @@ export const LivePage = () => {
       )}
       <BlobStyling src={pinkPurpleDecorativeBlobs} alt="A blue and pink blob" />
       <Body>
-        <Card>
-          <CardLayout>
-            <HashtagTag>#flexiblesolutions </HashtagTag>
-            <DiscussingImage
-              src={discussingImage}
-              alt="Two cartoon people discussing work over a computer"
-            />
-            <TextContainer>
-              <h1>Where Ideas Take Digital Form</h1>
-              <p>
-                Our software engineering contracting website connects businesses
-                with top-tier engineers, offering customized, scalable solutions
-                for projects, ensuring quality and efficiency.
-              </p>
-            </TextContainer>
-            <StyledContactButtonContainer>
-              <StyledContactButton
-                text="Contact Us"
-                handleModalClick={handleModalClick}
+        <motion.div initial="hidden" animate="visible" variants={fadeInOnLoad}>
+          <Card>
+            <CardLayout>
+              <HashtagTag>#flexiblesolutions </HashtagTag>
+              <DiscussingImage
+                src={discussingImage}
+                alt="Two cartoon people discussing work over a computer"
               />
-            </StyledContactButtonContainer>
-          </CardLayout>
-        </Card>
+              <TextContainer>
+                <h1>Where Ideas Take Digital Form</h1>
+                <p>
+                  Our software engineering contracting website connects
+                  businesses with top-tier engineers, offering customized,
+                  scalable solutions for projects, ensuring quality and
+                  efficiency.
+                </p>
+              </TextContainer>
+              <StyledContactButtonContainer>
+                <StyledContactButton
+                  text="Contact Us"
+                  handleModalClick={handleModalClick}
+                />
+              </StyledContactButtonContainer>
+            </CardLayout>
+          </Card>
+        </motion.div>
       </Body>
       <WhatWeDo />
       <WhoAreWe />
