@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import {
   StyledDesktopHeader,
   StyledMenu,
@@ -10,8 +11,12 @@ export const DesktopHeader = ({ handleModalClick }) => {
     <StyledDesktopHeader>
       <StyledMenu>
         <StandardLogo />
-        <a href="#what-we-do">What We Do</a>
-        <a href="#who-are-we">Who Are We</a>
+        <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.9 }}>
+          <a href="#what-we-do">What We Do</a>
+        </motion.div>
+        <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.9 }}>
+          <a href="#who-are-we">Who Are We</a>
+        </motion.div>
       </StyledMenu>
 
       <StyledSayHello text="Say Hello" handleModalClick={handleModalClick} />

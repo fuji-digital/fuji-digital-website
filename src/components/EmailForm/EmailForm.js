@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Formik } from "formik";
 import emailjs from "@emailjs/browser";
 import * as Yup from "yup";
+import { motion } from "framer-motion";
 
 import errorIcon from "../../images/icons/error-icon.svg";
 
@@ -180,15 +181,20 @@ export const EmailForm = () => {
                       errors.description}
                   </StyledError>
                 </StyledInputBox>
-                <StyledButtonContainer>
-                  <StyledButton
-                    type="submit"
-                    data-testid="submit-button"
-                    disabled={isSubmitting && !errorOnSubmission}
-                  >
-                    Submit
-                  </StyledButton>
-                </StyledButtonContainer>
+                <motion.div
+                  whileHover={{ scale: 1.03 }}
+                  whileTap={{ scale: 1.01 }}
+                >
+                  <StyledButtonContainer>
+                    <StyledButton
+                      type="submit"
+                      data-testid="submit-button"
+                      disabled={isSubmitting && !errorOnSubmission}
+                    >
+                      Submit
+                    </StyledButton>
+                  </StyledButtonContainer>
+                </motion.div>
               </StyledForm>
             </>
           )}
