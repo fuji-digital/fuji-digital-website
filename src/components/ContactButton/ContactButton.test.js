@@ -2,6 +2,13 @@ import renderer from "react-test-renderer";
 import { render, screen } from "@testing-library/react";
 import { ContactButton } from "./ContactButton";
 
+jest.mock(`framer-motion`, () => ({
+  ...jest.requireActual("framer-motion"),
+  motion: {
+    div: jest.fn().mockImplementation(({ children }) => <div>{children}</div>),
+  },
+}));
+
 describe("ContactButton", () => {
   it("matches snapshot", () => {
     const component = renderer

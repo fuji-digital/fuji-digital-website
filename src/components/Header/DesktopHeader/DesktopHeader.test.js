@@ -2,6 +2,13 @@ import renderer from "react-test-renderer";
 import { render, screen, fireEvent } from "@testing-library/react";
 import { DesktopHeader } from "./DesktopHeader";
 
+jest.mock(`framer-motion`, () => ({
+  ...jest.requireActual("framer-motion"),
+  motion: {
+    div: jest.fn().mockImplementation(({ children }) => <div>{children}</div>),
+  },
+}));
+
 describe("Desktop Header", () => {
   it("matches snapshot", () => {
     const component = renderer

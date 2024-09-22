@@ -22,30 +22,36 @@ exports[`Desktop Header matches snapshot 1`] = `
         src="fuji-digital-text-logo-white.svg"
       />
     </div>
-    <a
-      href="#what-we-do"
-    >
-      What We Do
-    </a>
-    <a
-      href="#who-are-we"
-    >
-      Who Are We
-    </a>
-  </div>
-  <button
-    className="sc-aYaIB koDWfZ sc-dcJtft jkTjTA"
-    data-testid="contact-button"
-    onClick={[Function]}
-  >
     <div>
-      Say Hello
+      <a
+        href="#what-we-do"
+      >
+        What We Do
+      </a>
     </div>
-    <img
-      alt="A black and white arrow"
-      className="sc-gEvDqW dTdWeV"
-      src="arrow-icon.svg"
-    />
-  </button>
+    <div>
+      <a
+        href="#who-are-we"
+      >
+        Who Are We
+      </a>
+    </div>
+  </div>
+  <div>
+    <button
+      className="sc-aYaIB hzsXfz sc-dcJtft jkTjTA"
+      data-testid="contact-button"
+      onClick={[Function]}
+    >
+      <div>
+        Say Hello
+      </div>
+      <img
+        alt="A black and white arrow"
+        className="sc-gEvDqW dTdWeV"
+        src="arrow-icon.svg"
+      />
+    </button>
+  </div>
 </div>
 `;

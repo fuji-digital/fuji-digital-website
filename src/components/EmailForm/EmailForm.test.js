@@ -8,6 +8,13 @@ jest.mock("@emailjs/browser", () => ({
   send: jest.fn(() => Promise.resolve({ status: 200, text: "OK" })),
 }));
 
+jest.mock(`framer-motion`, () => ({
+  ...jest.requireActual("framer-motion"),
+  motion: {
+    div: jest.fn().mockImplementation(({ children }) => <div>{children}</div>),
+  },
+}));
+
 describe("EmailForm", () => {
   beforeEach(() => {
     jest.clearAllMocks();
@@ -43,7 +50,9 @@ describe("EmailForm", () => {
       await user.click(screen.getByRole("button", { name: /Submit/i }));
     });
 
-    await screen.findByText("Thank you for submitting your question, our Fujits are working on an answer right away 😊");
+    await screen.findByText(
+      "Thank you for submitting your question, our Fujits are working on an answer right away 😊"
+    );
   });
 
   it("checks if the input is correct and errors appear if not", async () => {

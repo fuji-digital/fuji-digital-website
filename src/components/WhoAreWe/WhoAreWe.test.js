@@ -7,10 +7,14 @@ jest.mock(`@uidotdev/usehooks`, () => ({
   useWindowSize: jest.fn(),
 }));
 
+jest.mock(`framer-motion`, () => ({
+  ...jest.requireActual("framer-motion"),
+  motion: {
+    div: jest.fn().mockImplementation(({ children }) => <div>{children}</div>),
+  },
+}));
+
 describe("WhoAreWe", () => {
-  beforeEach(() => {
-    jest.resetAllMocks();
-  });
   it("about me renders at 550px screen width", () => {
     useWindowSize.mockReturnValue({ width: 550 });
 
