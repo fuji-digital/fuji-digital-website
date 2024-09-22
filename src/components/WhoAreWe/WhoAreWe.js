@@ -59,7 +59,7 @@ export const WhoAreWe = () => {
               <StyledIconContainer
                 color="#fff"
                 gitHubUrl="https://github.com/emilybuc"
-                linkedInUrl="https://www.linkedin.com/in/emily-carter-buckley-a91a7118a/"
+                linkedInUrl="https://www.linkedin.com/in/emily-buckley-a91a7118a/"
               />
               {width >= 550 && (
                 <StyledAboutMe>
