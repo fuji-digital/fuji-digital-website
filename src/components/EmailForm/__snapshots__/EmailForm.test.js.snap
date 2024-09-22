@@ -82,17 +82,19 @@ exports[`EmailForm matches snapshot 1`] = `
         data-testid="description-error-message"
       />
     </div>
-    <div
-      className="sc-dcJtft faUbuY"
-    >
-      <button
-        className="sc-iGgVNO edfwlg"
-        data-testid="submit-button"
-        disabled={false}
-        type="submit"
+    <div>
+      <div
+        className="sc-dcJtft faUbuY"
       >
-        Submit
-      </button>
+        <button
+          className="sc-iGgVNO edfwlg"
+          data-testid="submit-button"
+          disabled={false}
+          type="submit"
+        >
+          Submit
+        </button>
+      </div>
     </div>
   </form>
 </div>
