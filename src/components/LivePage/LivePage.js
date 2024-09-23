@@ -1,6 +1,6 @@
 import { useWindowSize } from "@uidotdev/usehooks";
 import { useState } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 
 import {
   PageStyling,
