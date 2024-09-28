@@ -37,7 +37,7 @@ exports[`LivePage matches snapshot 1`] = `
     </div>
   </div>
   <img
-    alt="A blue and pink blob"
+    aria-hidden="true"
     className="sc-imWZod iTPJKF"
     src="pink-purple-decorative-blobs.svg"
   />
@@ -112,6 +112,7 @@ exports[`LivePage matches snapshot 1`] = `
           className="sc-koYCI dphtOu"
         >
           <img
+            aria-hidden="true"
             className="sc-bmzXxz bignkj"
             src="pink-stripe-fujit.svg"
           />
@@ -123,6 +124,7 @@ exports[`LivePage matches snapshot 1`] = `
           className="sc-dtBeHJ itAmsY"
         >
           <img
+            aria-hidden="true"
             className="sc-bmzXxz bignkj"
             src="purple-tall-fujit.svg"
           />
@@ -134,6 +136,7 @@ exports[`LivePage matches snapshot 1`] = `
           className="sc-koYCI dphtOu"
         >
           <img
+            aria-hidden="true"
             className="sc-bmzXxz bignkj"
             src="pink-round-short-fujit.svg"
           />
@@ -192,6 +195,7 @@ exports[`LivePage matches snapshot 1`] = `
               className="sc-eBMFzZ cIJiGS"
             >
               <img
+                alt="A staff photo of Emily"
                 className="sc-dCFGXG fkkzPd"
                 src={Object {}}
                 style={
@@ -260,6 +264,7 @@ exports[`LivePage matches snapshot 1`] = `
               className="sc-eBMFzZ cIJiGS"
             >
               <img
+                alt="A staff photo of Greg"
                 className="sc-dCFGXG fkkzPd"
                 src={Object {}}
                 style={
@@ -397,10 +402,12 @@ exports[`LivePage matches snapshot 1`] = `
       Copyright © 2024 Fuji Digital Ltd. All rights reserved.
     </div>
     <img
+      aria-hidden="true"
       className="sc-fHjqbK rCErN"
       src="white-purple-decorative-blobs.svg"
     />
     <img
+      aria-hidden="true"
       className="sc-hmdnzv hkMblP"
       src="pink-round-tall-fujit.svg"
     />

@@ -75,10 +75,12 @@ exports[`Footer matches snapshot 1`] = `
     Copyright © 2024 Fuji Digital Ltd. All rights reserved.
   </div>
   <img
+    aria-hidden="true"
     className="sc-jXbVAB dNAyMk"
     src="white-purple-decorative-blobs.svg"
   />
   <img
+    aria-hidden="true"
     className="sc-dhKdPU gDmhWa"
     src="pink-round-tall-fujit.svg"
   />
