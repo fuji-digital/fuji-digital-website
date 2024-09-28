@@ -52,6 +52,7 @@ export const WhoAreWe = () => {
               <StyledContentContainer>
                 <StyledStaffPhoto
                   src={StaffPhotoEmily}
+                  alt="A staff photo of Emily"
                   style={{ border: "5px solid #5E17EB" }}
                 ></StyledStaffPhoto>
                 <h3>Emily Buckley</h3> Senior Engineer
@@ -81,6 +82,7 @@ export const WhoAreWe = () => {
               <StyledContentContainer>
                 <StyledStaffPhoto
                   src={StaffPhotoGreg}
+                  alt="A staff photo of Greg"
                   style={{ border: "5px solid #F1A1E7" }}
                 ></StyledStaffPhoto>
                 <h3>Gregory Carter</h3> Junior Engineer

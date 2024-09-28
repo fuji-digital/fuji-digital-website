@@ -25,6 +25,7 @@ exports[`WhatWeDo matches snapshot 1`] = `
         className="sc-fqkwJk lmBqrf"
       >
         <img
+          aria-hidden="true"
           className="sc-dcJtft jqAmXX"
           src="pink-stripe-fujit.svg"
         />
@@ -36,6 +37,7 @@ exports[`WhatWeDo matches snapshot 1`] = `
         className="sc-gsFSjX jBnpZW"
       >
         <img
+          aria-hidden="true"
           className="sc-dcJtft jqAmXX"
           src="purple-tall-fujit.svg"
         />
@@ -47,6 +49,7 @@ exports[`WhatWeDo matches snapshot 1`] = `
         className="sc-fqkwJk lmBqrf"
       >
         <img
+          aria-hidden="true"
           className="sc-dcJtft jqAmXX"
           src="pink-round-short-fujit.svg"
         />

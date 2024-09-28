@@ -35,7 +35,8 @@
     "test": "jest",
     "eject": "react-scripts eject",
     "deploy": "aws s3 sync build/ s3://fujidigital.co.uk --delete",
-    "prod": "npm run build && npm run deploy"
+    "prod": "npm run build && npm run deploy",
+    "lint": "eslint ."
   },
   "jest": {
     "transform": {

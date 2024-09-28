@@ -24,7 +24,7 @@ exports[`MaintenancePage matches snapshot 1`] = `
     </div>
   </div>
   <img
-    alt="A blue and pink blob"
+    aria-hidden="true"
     className="sc-eqUzNf hoQbZc"
     src="pink-purple-decorative-blobs.svg"
   />
@@ -55,7 +55,7 @@ exports[`MaintenancePage matches snapshot 1`] = `
             Stay tuned...
           </p>
           <img
-            alt="A Pink circle with a happy face with its arms in the air"
+            aria-hidden="true"
             className="sc-kAycRU AVlTJ"
             src="pink-round-short-fujit.svg"
           />
@@ -137,10 +137,12 @@ exports[`MaintenancePage matches snapshot 1`] = `
       Copyright © 2024 Fuji Digital Ltd. All rights reserved.
     </div>
     <img
+      aria-hidden="true"
       className="sc-eDPFhE hsWCZb"
       src="white-purple-decorative-blobs.svg"
     />
     <img
+      aria-hidden="true"
       className="sc-eldOKa gyOUUg"
       src="pink-round-tall-fujit.svg"
     />

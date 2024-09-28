@@ -23,7 +23,7 @@ export const MaintenancePage = () => {
       <Header>
         <StandardLogo version={"white"} />
       </Header>
-      <BlobStyling src={pinkPurpleDecorativeBlobs} alt="A blue and pink blob" />
+      <BlobStyling src={pinkPurpleDecorativeBlobs} aria-hidden="true" />
       <Body>
         <Card>
           <CardLayout>
@@ -37,7 +37,7 @@ export const MaintenancePage = () => {
               <p>Stay tuned...</p>
               <PinkRoundShortFujit
                 src={pinkRoundShortFujit}
-                alt="A Pink circle with a happy face with its arms in the air"
+                aria-hidden="true"
               />
             </TextContainer>
           </CardLayout>

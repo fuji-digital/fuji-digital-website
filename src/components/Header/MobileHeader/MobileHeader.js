@@ -42,7 +42,7 @@ export const MobileHeader = ({ handleModalClick }) => {
                 handleModalClick={handleModalClick}
                 onClick={handleMenuClick}
               />
-              <StyledPinkFujit src={pinkPentagonFujit} />
+              <StyledPinkFujit src={pinkPentagonFujit} aria-hidden="true" />
             </StyledContactUs>
           </Menu>
         </>

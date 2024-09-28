@@ -24,6 +24,7 @@ exports[`WhoAreWe matches snapshot 1`] = `
             className="sc-iGgVNO ffHzaU"
           >
             <img
+              alt="A staff photo of Emily"
               className="sc-gsFSjX hWksf"
               src={Object {}}
               style={
@@ -92,6 +93,7 @@ exports[`WhoAreWe matches snapshot 1`] = `
             className="sc-iGgVNO ffHzaU"
           >
             <img
+              alt="A staff photo of Greg"
               className="sc-gsFSjX hWksf"
               src={Object {}}
               style={

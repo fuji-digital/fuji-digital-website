@@ -8,7 +8,7 @@ exports[`EmailForm matches snapshot 1`] = `
     Contact Us
   </h3>
   <img
-    alt="A Pink mascot waving"
+    aria-hidden="true"
     className="sc-eqUzNf kJDyOC"
     src="pink-pentagon-fujit.svg"
   />
