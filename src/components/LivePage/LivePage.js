@@ -51,7 +51,7 @@ export const LivePage = () => {
       ) : (
         <DesktopHeader handleModalClick={handleModalClick} />
       )}
-      <BlobStyling src={pinkPurpleDecorativeBlobs} alt="A blue and pink blob" />
+      <BlobStyling src={pinkPurpleDecorativeBlobs} aria-hidden="true" />
       <Body>
         <motion.div initial="hidden" animate="visible" variants={fadeInOnLoad}>
           <Card>

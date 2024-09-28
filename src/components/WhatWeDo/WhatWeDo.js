@@ -53,7 +53,7 @@ export const WhatWeDo = () => {
       >
         <StyledInformationContainer>
           <StyledTextContainer>
-            <StyledFujit src={pinkStripeFujit} />
+            <StyledFujit src={pinkStripeFujit} aria-hidden="true" />
             <p>
               At our software engineering company, we prioritize delivering
               top-tier work for every website we create. We tailor our solutions
@@ -62,7 +62,7 @@ export const WhatWeDo = () => {
             </p>
           </StyledTextContainer>
           <StyledReverseIconContainer>
-            <StyledFujit src={purpleTallFujit} />
+            <StyledFujit src={purpleTallFujit} aria-hidden="true" />
             <p>
               We utilize the latest technologies to stay ahead of industry
               trends. By leveraging cutting-edge tools and techniques, we
@@ -71,7 +71,7 @@ export const WhatWeDo = () => {
             </p>
           </StyledReverseIconContainer>
           <StyledTextContainer>
-            <StyledFujit src={pinkRoundShortFujit} />
+            <StyledFujit src={pinkRoundShortFujit} aria-hidden="true" />
             <p>
               Our team prides itself on exceptional customer service and timely
               project completion. We maintain open communication, ensuring

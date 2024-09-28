@@ -19,7 +19,7 @@ export const Modal = ({ children, className, handleCrossClick }) => {
           onClick={handleCrossClick}
           data-testid="cross-button"
         >
-          <StyledCross src={Cross} />
+          <StyledCross src={Cross} alt="Close modal" />
         </StyledCrossButton>
         {children}
       </StyledModal>

@@ -30,8 +30,8 @@ export const Footer = () => {
       <StyledFooterCopyright>
         Copyright © 2024 Fuji Digital Ltd. All rights reserved.
       </StyledFooterCopyright>
-      <StyledFooterBlobs src={whitePurpleDecorativeBlobs} />
-      <StyledPinkFujit src={pinkRoundTallFujit} />
+      <StyledFooterBlobs src={whitePurpleDecorativeBlobs} aria-hidden="true" />
+      <StyledPinkFujit src={pinkRoundTallFujit} aria-hidden="true" />
     </StyledFooter>
   );
 };

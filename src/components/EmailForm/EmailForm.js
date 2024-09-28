@@ -73,7 +73,7 @@ export const EmailForm = () => {
     <StyledModal>
       <h3>Contact Us</h3>
       {!errorOnSubmission && (
-        <StyledFujit src={pinkPentagonFujit} alt="A Pink mascot waving" />
+        <StyledFujit src={pinkPentagonFujit} aria-hidden="true" />
       )}
       {isSubmitted && !errorOnSubmission ? (
         <p>
@@ -101,7 +101,10 @@ export const EmailForm = () => {
             <>
               {errorOnSubmission && (
                 <StyledSubmitError>
-                  <ErrorIconImage src={errorIcon}></ErrorIconImage>
+                  <ErrorIconImage
+                    src={errorIcon}
+                    aria-hidden="true"
+                  ></ErrorIconImage>
                   <div data-testid="submission-error-message">
                     {" "}
                     Error has occured, please try again later or contact us
